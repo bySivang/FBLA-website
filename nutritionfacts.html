@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Nutritional Facts | Breadible</title>
+	<link rel="stylesheet" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)"><!--Responsive design for tablet-->
+	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)"><!--Responsive design for phone-->
+</head>	
+<body>
+	<!--Header that contains the logo-->
+	<header>
+		<!--Small decorative div at the top that displays the phone number-->
+		<div id="phonenumberdiv"><p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
+			
+		<b id=phonenumber2>555-555-5555</b></p>
+		
+		<!--Logo-->
+		<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+		</div>
+	</header>
+	
+	
+	
+	
+	<!--Navigation-->
+	<nav id="navigation">
+		
+		<!--Mobile Nav-->
+		<img src="images/menuicon.png" id="icon" onclick="drop()" height ="7%" width ="7%"></img>
+		<ul id="menudropdown">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li class="active"><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+		
+		<!--Desktop Nav-->
+		<ul id="navi">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li class="active"><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+	</nav>
+	
+	
+	
+	
+	<!--Secondary Navigation-->
+	<section id="secondnav">
+		<div class="responsivediv"><h1 ><a href="nutrition.html">Our Beliefs</a></h1></div>
+		<div class="responsivediv" style="border-left:solid 2px #BE5D16; border-right:solid 2px #BE5D16"><h1 class="active"><a href="#">Nutritional Facts</a></h1></div>
+		<div class="responsivediv"><h1><a href="nutritionplate.html">Allergens and Diet</a></h1></div>
+	</section>
+	
+	
+	
+	
+	<!--Short Blurb-->
+	<section id="nutritionbody">
+	    <article id="nutritionarticle"><h2>Breadible: Nutritional Facts</h2>
+	    	<p>The place to find calories, serving sizes, and nutritional values of all of Breadible's products.<br><br><a href="files/menu.pdf" target="_blank" id="nutritionlink">Download the Nutritional Information</a></p>
+	    </article>
+	    
+	    
+	
+	<!--Nutritonal Table-->
+	<table id="nutritiontable" cellspacing="0">
+	    	<tr class="border_bottom">
+	    		<!-- Nutrition Fact Categories-->
+	    		<td></td>
+	    		<td>Serving Size</td>
+	    		<td>Calories</td>
+	    		<td>Fat(g)</td>
+	    		<td>Cholesterol(mg)</td>
+	    		<td>Sodium(mg)</td>		
+	    		<td>Carbs</td>
+	    		<td>Sugars</td>
+	    		<td>Protein</td>
+	    	</tr>
+	    		
+	    	<tr><!--Foods-->
+	    		<td>Classic Croissant</td><!--Food Name-->
+	    		<td>62g</td><!--Amount of Nutrient-->
+	    		<td>240</td>
+	    		<td>12g</td>
+	    		<td>30mg</td>
+	    		<td>330mg</td>		
+	    		<td>28g</td>
+	    		<td>5g</td>
+	    		<td>5g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Muffin</td>
+	    		<td>17g</td>
+	    		<td>67</td>
+	    		<td>3g</td>
+	    		<td>7mg</td>
+	    		<td>54mg</td>		
+	    		<td>8g</td>
+	    		<td>5g</td>
+	    		<td>1g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Cookies</td>
+	    		<td>12g</td>
+	    		<td>57</td>
+	    		<td>3g</td>
+	    		<td>0mg</td>
+	    		<td>36ng</td>		
+	    		<td>8g</td>
+	    		<td>4g</td>
+	    		<td>1g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Chocolate Croissant</td>
+	    		<td>80g</td>
+	    		<td>300</td>
+	    		<td>17g</td>
+	    		<td>30mg</td>
+	    		<td>220mg</td>		
+	    		<td>34g</td>
+	    		<td>10g</td>
+	    		<td>5g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Bagel</td>
+	    		<td>57g</td>
+	    		<td>146</td>
+	    		<td>1g</td>
+	    		<td>0mg</td>
+	    		<td>255mg</td>		
+	    		<td>29g</td>
+	    		<td>3g</td>
+	    		<td>6g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Scones</td>
+	    		<td>120g</td>
+	    		<td>460</td>
+	    		<td>22g</td>
+	    		<td>75mg</td>
+	    		<td>420mg</td>		
+	    		<td>61g</td>
+	    		<td>17g</td>
+	    		<td>7g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Cinnamon Roll</td>
+	    		<td>44g</td>
+	    		<td>145</td>
+	    		<td>5g</td>
+	    		<td>0mg</td>
+	    		<td>340mg</td>		
+	    		<td>23g</td>
+	    		<td>10g</td>
+	    		<td>2g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Tomato Soup</td>
+	    		<td>121g</td>
+	    		<td>73</td>
+	    		<td>1g</td>
+	    		<td>0mg</td>
+	    		<td>667mg</td>		
+	    		<td>16g</td>
+	    		<td>10g</td>
+	    		<td>2g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Seafood Chowder</td>
+	    		<td>225g</td>
+	    		<td>190</td>
+	    		<td>4.9g</td>
+	    		<td>56mg</td>
+	    		<td>586mg</td>		
+	    		<td>11.71g</td>
+	    		<td>6.12g</td>
+	    		<td>23.74g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Chicken Noodle Soup</td>
+	    		<td>303g</td>
+	    		<td>158</td>
+	    		<td>6g</td>
+	    		<td>33mg</td>
+	    		<td>1630mg</td>		
+	    		<td>18g</td>
+	    		<td>2g</td>
+	    		<td>8g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Grilled Cheese</td>
+	    		<td>177g</td>
+	    		<td>580</td>
+	    		<td>29g</td>
+	    		<td>65mg</td>
+	    		<td>1110mg</td>		
+	    		<td>57g</td>
+	    		<td>7g</td>
+	    		<td>28g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Cheesesteak</td>
+	    		<td>250g</td>
+	    		<td>602</td>
+	    		<td>24g</td>
+	    		<td>90mg</td>
+	    		<td>1182mg</td>		
+	    		<td>60g</td>
+	    		<td>7g</td>
+	    		<td>37g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Turkey Sandwich</td>
+	    		<td>213g</td>
+	    		<td>350</td>
+	    		<td>4.5g</td>
+	    		<td>50mg</td>
+	    		<td>2020mg</td>		
+	    		<td>45g</td>
+	    		<td>8g</td>
+	    		<td>28.5g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Eggplant Pasta</td>
+				<td>160g</td>
+	    		<td>181</td>
+	    		<td>7g</td>
+	    		<td>6.1mg</td>
+	    		<td>996mg</td>		
+	    		<td>24g</td>
+	    		<td>4g</td>
+	    		<td>8g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Gnocchi in Mushroom Sauce</td>
+	    		<td>250g</td>
+	    		<td>393</td>
+	    		<td>17.4g</td>
+	    		<td>59.2mg</td>
+	    		<td>511.4mg</td>		
+	    		<td>43.7g</td>
+	    		<td>3.2g</td>
+	    		<td>15g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Lasagna</td>
+	    		<td>297g</td>
+	    		<td>377</td>
+	    		<td>14g</td>
+	    		<td>45mg</td>
+	    		<td>832mg</td>		
+	    		<td>38g</td>
+	    		<td>6g</td>
+	    		<td>25g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Sausage Ravioli</td>
+	    		<td>118g</td>
+	    		<td>240</td>
+	    		<td>4.5g</td>
+	    		<td>10mg</td>
+	    		<td>210mg</td>		
+	    		<td>39.1g</td>
+	    		<td>0.9g</td>
+	    		<td>9g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Fettuccine Alfredo</td>
+	    		<td>216g</td>
+	    		<td>450</td>
+	    		<td>24g</td>
+	    		<td>5mg</td>
+	    		<td>1050mg</td>		
+	    		<td>44g</td>
+	    		<td>5g</td>
+	    		<td>11g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Caesar Salad</td>
+	    		<td>120g</td>
+	    		<td>265</td>
+	    		<td>15g</td>
+	    		<td>53mg</td>
+	    		<td>535mg</td>		
+	    		<td>16g</td>
+	    		<td>1g</td>
+	    		<td>19g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Chicken Salad</td>
+	    		<td>223g</td>
+	    		<td>240</td>
+	    		<td>7g</td>
+	    		<td>40mg</td>
+	    		<td>520mg</td>		
+	    		<td>26g</td>
+	    		<td>5g</td>
+	    		<td>12g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Greek Salad</td>
+	    		<td>326g</td>
+	    		<td>348</td>
+	    		<td>18g</td>
+	    		<td>33mg</td>
+	    		<td>1043mg</td>		
+	    		<td>36g</td>
+	    		<td>7g</td>
+	    		<td>14g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Kale Salad</td>
+	    		<td>104g</td>
+	    		<td>100</td>
+	    		<td>4g</td>
+	    		<td>0mg</td>
+	    		<td>35mg</td>		
+	    		<td>15g</td>
+	    		<td>5g</td>
+	    		<td>4g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Water</td>
+	    		<td>30g</td>
+	    		<td>0</td>
+	    		<td>0g</td>
+	    		<td>0mg</td>
+	    		<td>1mg</td>		
+	    		<td>0g</td>
+	    		<td>0g</td>
+	    		<td>0g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Lemonade</td>
+	    		<td>36g</td>
+	    		<td>66</td>
+	    		<td>0g</td>
+	    		<td>0mg</td>
+	    		<td>1mg</td>		
+	    		<td>17g</td>
+	    		<td>15g</td>
+	    		<td>0g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Ice Tea</td>
+	    		<td>340g</td>
+	    		<td>5</td>
+	    		<td>0g</td>
+	    		<td>0mg</td>
+	    		<td>10mg</td>		
+	    		<td>0g</td>
+	    		<td>0g</td>
+	    		<td>0g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Coffee</td>
+	    		<td>340g</td>
+	    		<td>2</td>
+	    		<td>0g</td>
+	    		<td>0mg</td>
+	    		<td>5mg</td>		
+	    		<td>1g</td>
+	    		<td>0g</td>
+	    		<td>1g</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Apple Juice</td>
+	    		<td>248g</td>
+	    		<td>114</td>
+	    		<td>0g</td>
+	    		<td>0mg</td>
+	    		<td>10mg</td>		
+	    		<td>28g</td>
+	    		<td>24g</td>
+	    		<td>0g</td>
+	    	</tr>
+	    	<!--End Foods-->
+	    </table>
+	</section>
+	
+	
+	
+	<!--Footer-->
+	<div id="footer">
+	<!-- Social Media-->
+	<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
+	<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+	<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+	<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
+	<!--Legal Notice and Copyright Issue-->
+	<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+	<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
+</div>
+
+</body>
+</html>

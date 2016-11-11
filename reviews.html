@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<!--Resources and Scripts-->
+	<title>Reviews | Breadible</title>
+	<link rel="stylesheet" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><!--JQuery-->
+	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)"><!--Responsive design for tablet-->
+	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)"><!--Responsive design for phone-->
+</head>	
+<body>
+	<!--Header that contains the logo-->
+	<header>
+		<!--Small decorative div at the top that displays the phone number-->
+		<div id="phonenumberdiv"><p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
+			
+		<b id=phonenumber2>555-555-5555</b></p>
+			
+		<!--Logo-->
+		<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+		</div>
+	</header>
+	
+	
+	
+	
+	<!--Navigation-->
+	<nav id="navigation">
+		
+		<!--Mobile Nav-->
+		<img src="images/menuicon.png" id="icon" onclick="drop()" height ="7%" width ="7%"></img>
+		<ul id="menudropdown">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li class="active"><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+		
+		<!--Desktop Nav-->	
+		<ul id="navi">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li class="active"><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+	</nav>
+	
+	
+	
+	<!--Reviews-->
+	<section id="top3reviews">
+		<div id="borderdecoration"><h1>The Healthiest Bakery in New Jersey</h1>
+		<h2>Over 500 people come to Breadible each day.<br> See What They Have to Say:</h2></div>
+		
+		<!--First Article-->
+		<article class="triplesection">
+			<!--Restaurant Critic, Picture then rating stars, then paragraph-->
+			<img src="images/guyfieri.jpg" id=circleimage>
+			<h2>Rated 4.5 Stars by Guy Fieri!</h2>
+			<div id=ratingimages><!--Rating Stars-->
+			<img src="images/starrating.jpeg" id=ratingimage>
+			<img src="images/starrating.jpeg" id=ratingimage>
+			<img src="images/starrating.jpeg" id=ratingimage>
+			<img src="images/starrating.jpeg" id=ratingimage>
+			<img src="images/halfstarrating.jpg" id=ratingimage>
+			</div><!--End Rating Stars-->
+			<p>Leading food critic Guy Fieri, known for his work in television, praised Breadible to be the new alternative to healthy eating. He described the price of the food as “very affordable for the average household." Turning his attention to the baked goods, Fieri claimed that everything had been baked to a crispy perfection.</p>
+		</article>
+		
+		
+		<!--Second Article-->
+		<article class="triplesection">
+			<!--Chef and his awards, Picture then rating stars, then paragraph-->
+			<img src="images/chef.jpg" id=circleimage>
+			<h2>2015 Restaurant Chef Award Semifinalist!</h2>
+			<p>Our restaurant accredits much of its success to its star chef, Adam Jones. Chef Adam Jones has lived much of his life serving to find the answers to perfect his passion. His crusade to provide refined cuisine has brought us our unique, nutritious, and flavorful menu. His work has earned him recognition as a semifinalist for the Restaurant Chef Award in 2015.</p>
+		</article>
+		
+		
+		<!--Third Article-->
+		<article class="triplesection">
+			<!--Rated top 10 restaurants by Suburban,NJ , Picture then rating stars, then paragraph-->
+			<img src="images/starledgerlogo.gif" id=circleimage>
+			<h2>Top 10 Healthy Restaurants in New Jersey!</h2>
+			<p>The Local newspaper, Star Ledger, gives Breadible two thumbs up. "The restaurant has great tasting food and a timeless theme perfect for people of any age. This local restaurant has what it takes to make it big!"</p>
+		</article>
+	</section>
+	
+	
+	
+	
+	<!--Review Form-->
+	<div id="decorationborder">
+		<form id="reviewform">
+			<h2 style="padding:35px 0px">Help Us Out! Write A Review!</h2>
+			<div class=triplesectionmobile>
+				<table cellspacing="0">
+					<tr class="border_bottom">
+						<!--Quality-->
+						<th rowspan=2 width=100px>Quality of Food</th>
+						<td></td>
+						<td>1</td><!--Rating-->
+						<td>2</td><!--Rating-->
+						<td>3</td><!--Rating-->
+						<td>4</td><!--Rating-->
+						<td>5</td><!--Rating-->
+						<td></td>
+					</tr>
+					<tr class="padding_top">
+						<td id="badradio">Bad</td>
+						<td><input id="rb1" class="radiobutton" name="quality" value="1" type=radio>
+						<label for="rb1"></label></td>
+						<td><input id="rb2" class="radiobutton" name="quality" value="2" type=radio>
+						<label for="rb2"></label></td>
+						<td><input id="rb3" class="radiobutton" name="quality" value="3" type=radio>
+						<label for="rb3"></label></td>
+						<td><input id="rb4" class="radiobutton" name="quality" value="4" type=radio>
+						<label for="rb4"></label></td>
+						<td><input id="rb5" class="radiobutton" name="quality" value="5" type=radio>
+						<label for="rb5"></label></td>
+						<td>Good</td>
+					</tr>
+				</table>
+				</div>
+				
+				<div class=triplesectionmobile>
+				<table cellspacing="0">
+					<tr class="border_bottom">
+						<!--Courtesy of Staff-->
+						<th rowspan=2 width=100px>Courtesy of Staff</th>
+						<td></td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td></td>
+					</tr>
+					<tr class="padding_top">
+						<td id="badradio">Bad</td>
+						<td><input id="rb6" class="radiobutton" name="staff" value="1" type=radio>
+						<label for="rb6"></label></td>
+						<td><input id="rb7" class="radiobutton" name="staff" value="2" type=radio>
+						<label for="rb7"></label></td>
+						<td><input id="rb8" class="radiobutton" name="staff" value="3" type=radio>
+						<label for="rb8"></label></td>
+						<td><input id="rb9" class="radiobutton" name="staff" value="4" type=radio>
+						<label for="rb9"></label></td>
+						<td><input id="rb10" class="radiobutton" name="staff" value="5" type=radio>
+						<label for="rb10"></label></td>
+						<td>Good</td>
+					</tr>
+				</table>
+				</div>
+				
+				<div class=triplesectionmobile>
+				<table cellspacing="0">
+					<tr class="border_bottom">
+						<!--Atmosphere-->
+						<th rowspan=2 width=100px>Atmosphere and Cleanliness</th>
+						<td></td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td></td>
+					</tr>
+					<tr class="padding_top">
+						<td id="badradio">Bad</td>
+						<td><input id="rb16" class="radiobutton" name="atmo" value="1" type=radio>
+						<label for="rb16"></label></td>
+						<td><input id="rb17" class="radiobutton" name="atmo" value="2" type=radio>
+						<label for="rb17"></label></td>
+						<td><input id="rb18" class="radiobutton" name="atmo" value="3" type=radio>
+						<label for="rb18"></label></td>
+						<td><input id="rb19" class="radiobutton" name="atmo" value="4" type=radio>
+						<label for="rb19"></label></td>
+						<td><input id="rb20" class="radiobutton" name="atmo" value="5" type=radio>
+						<label for="rb20"></label></td>
+						<td>Good</td>
+					</tr>
+				</table>
+				</div>
+				
+				<div class=triplesectionmobile></div> <!--Space Holder to center next triplesection-->
+				
+				<div class=triplesectionmobile>
+				<table cellspacing="0">
+					<tr class="border_bottom">
+						<!--Speed of Service-->
+						<th rowspan=2 width=100px>Speed of Service</th>
+						<td></td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td></td>
+					</tr>
+					<tr class="padding_top">
+						<td id="badradio">Bad</td>
+						<td><input id="rb11" class="radiobutton" name="speed" value="1" type=radio>
+						<label for="rb11"></label></td>
+						<td><input id="rb12" class="radiobutton" name="speed" value="2" type=radio>
+						<label for="rb12"></label></td>
+						<td><input id="rb13" class="radiobutton" name="speed" value="3" type=radio>
+						<label for="rb13"></label></td>
+						<td><input id="rb14" class="radiobutton" name="speed" value="4" type=radio>
+						<label for="rb14"></label></td>
+						<td><input id="rb15" class="radiobutton" name="speed" value="5" type=radio>
+						<label for="rb15"></label></td>
+						<td>Good</td>
+					</tr>
+				</table>
+				</div>
+				
+				<!--Name/Comments Inputs-->
+				<div class="reviewdiv">First name:<input type=text name=firstname class="reviewinput"></div><br>
+				<div class="reviewdiv">Last name:<input type= text name=lastname class="reviewinput"></div><br>
+				<div class="reviewdiv"><textarea id="reviewcomments" name=comments class="reviewinput" placeholder="Write an optional comment here."></textarea></div>
+				<input id=submitbutton type=button value="Submit" onclick="reviewsubmit(); return false">
+			</form>
+		</div>
+		
+		
+		
+<!--Confirmation Message-->
+	<div id="reviewpopup">
+		<div id="reservationmessage">
+			<h1>Thank you for Submitting the Form</h1>
+			<p>We Appreciate The Feedback</p>
+			<div><p onclick='endpopup("reviewpopup")'>Done</p></div>
+		</div>
+	</div>
+		
+	
+
+	<!--Footer-->
+	<div id="footer">
+	<!-- Social Media-->
+	<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
+	<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+	<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+	<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
+	<!--Legal Notice and Copyright Issue-->
+	<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+	<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
+</div>
+
+</body>
+	<script type="text/javascript" src="main.js"></script>
+</html>

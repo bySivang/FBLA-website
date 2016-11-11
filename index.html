@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Breadible,Gluten-Free,Gluten,Healthy,Bakery,Restaurant,Sayreville,Bread">
+	<meta name="description" content="Gluten-Free Restaurant in Sayreville, New Jersey. Serves Salads, Sandwhiches, Pastries, Pastas, and Soups.">
+	<meta name="author" content=“Sivang Modi and Kunal Kadakia“>
+	<title>Kidz Kingdom: Family Entertainment Center</title>
+	<link rel="stylesheet" href="main.css"><!--Stylesheet-->
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'><!--font-->
+	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'><!--font-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sets view for mobile-->
+	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)">
+	<!--Responsive css for tablet-->
+	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)">
+	<!--Responsive css for phone-->
+	<script type="text/javascript" src="main.js"></script><!--javascript-->
+	
+	<!--link jquery to use for reservation datepicker-->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script>
+		//Creates an id to give to html objects to allow date boxes to appear after clicking
+		$(function() {
+			$("#datepicker").datepicker();
+		});
+	</script>
+</head>
+
+<body>
+
+	<header><!--Header that contains the logo-->
+		<!--Small decorative div at the top that displays the phone number-->
+		<div id="phonenumberdiv">
+			<p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
+				<b id=phonenumber2>555-555-5555</b></p>
+			<!--Logo-->
+			<a href="index.html"><img src="images/lighterlogo.svg" alt=“Kidz Kingdom Logo" title=“Kidz Kingdom:Family Entertainment Center“ id="logo"></a>
+		</div>
+	</header>
+
+
+
+
+	<!--Navigation-->
+	<nav id="navigation">
+		
+		<!--Mobile navigation (Hidden in desktop mode)-->
+		<img src="images/menuicon.png" id="icon" onclick="drop()" height="7%" width="7%"></img>
+		<ul id="menudropdown"><!--Mobile Icon-->
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+		
+		<!--Desktop navigation (Hidden in mobile view)-->
+		<ul id="navi">
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Insurance Waivers</a></li>
+			<li><a href="nutrition.html">Activities</a></li>
+			<li><a href="reviews.html">Hours and Prices</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">Parties</a></li>
+		</ul>
+	</nav>
+	
+	<!--Banner Image-->
+	<div id=container>
+		<div class=imageslider id=imageslider1 style="background-image:url('images/Handmade Brioches.jpg')">
+			<div id="homeinfo">
+				<!--Paragraph overlayed onto image right side-->
+				<p>Crunchy, Crispy, Baked Goodness</p>
+				<br>
+			</div>
+			
+			<!--Paragraph overlayed onto image left side-->
+			<div id="homeinfo2">
+				<p>Open from 7:00 AM to 9:00 PM Everyday!</p>
+			</div>
+		
+			<!--Reservation banner on bottom-->
+			<div id=reservation>
+				<form id="frm">
+					<!--Date-->
+					<input id="datepicker" type=button name=Date value="Date">
+					<!--End Date-->
+					<select id=hours name=Hours>
+						<!--Hours-->
+						<option value="Hours" name="Hours" disabled selected>Hours</option>
+						<option value="7:00 AM" name="7:00 AM">7:00 AM</option>
+						<option value="8:00 AM" name="8:00 AM">8:00 AM</option>
+						<option value="9:00 AM" name="9:00 AM">9:00 AM</option>
+						<option value="10:00 AM" name="10:00 AM">10:00 AM</option>
+						<option value="11:00 AM" name="11:00 AM">11:00 AM</option>
+						<option value="12:00 PM" name="12:00 PM">12:00 PM</option>
+						<option value="1:00 PM" name="1:00 AM">1:00 PM</option>
+						<option value="2:00 PM" name="2:00 AM">2:00 PM</option>
+						<option value="3:00 PM" name="3:00 AM">3:00 PM</option>
+						<option value="4:00 PM" name="4:00 AM">4:00 PM</option>
+						<option value="5:00 PM" name="5:00 AM">5:00 PM</option>
+						<option value="6:00 PM" name="6:00 AM">6:00 PM</option>
+						<option value="7:00 PM" name="7:00 AM">7:00 PM</option>
+						<option value="8:00 PM" name="8:00 AM">8:00 PM</option>
+						<option value="9:00 PM" name="9:00 AM">9:00 PM</option>
+						<!--End hours-->
+					</select>
+					
+					<select id=numberofpeople name=Persons>
+						<!--Number of People-->
+						<option value="People" disabled selected>People</option>
+						<option value="1" name="1">1</option>
+						<option value="2" name="2">2</option>
+						<option value="3" name="3">3</option>
+						<option value="4" name="4">4</option>
+						<option value="5" name="5">5</option>
+						<option value="6" name="6">6</option>
+						<option value="7" name="7">7</option>
+						<option value="8" name="8">8</option>
+						<option value="9" name="9">9</option>
+						<option value="10+" name="10+">10+</option>
+						<!--End people-->
+					</select>
+					
+					<!--Submit button-->
+					<input id=submitbutton type=button value="Reserve" onclick="popup(); return false">
+				</form><!--End form-->
+			</div><!--End reservation form-->
+		</div><!--End banner image-->
+	</div><!--End container-->
+
+	
+	
+	<!--popup after pressing the submit button (hidden at start)-->
+	<div id="reservationpopup">
+		<div id="reservationmessage">
+			<p onclick="endpopup('reservationpopup')" id="exitpopup">&#10008;</p>
+			<h1>Input Your Contact Information</h1>
+			<p>Let us know how to know who you are when you enter the store.</p>
+			<br>
+			<form action="send.php" method = "POST">
+			First name:  <input id=firstnameres type=text name=firstname class="reviewinput"><br><br>
+			Last name:  <input id=lastnameres type= text name=lastname class="reviewinput"><br><br>
+			Phone Number:  <input id=phoneres type=number name=phone class="reviewinput"><br><br>
+			<textarea id="reviewcomments" name=comments class="reviewinput" placeholder="Write an optional comment here."></textarea>
+			<div>
+				<input onclick='return popupmid()' type = "submit" value = "Done" id = "submit"></input>
+			</div>
+			</form>
+		
+		</div>
+	</div><!--End popup-->
+
+	<!--popup after pressing the inputting name and cell-phone (hidden until previous popup is filled)-->
+		<div id="reservationpopup1">
+			<div id="reservationmessage">
+				<h1>Thank you for Reserving Your Seats!</h1>
+				<p>Your Reservation is Set For:</p>
+				<br>
+				<p id="resvar">Javascript Input</p>
+				<br>
+				<p>Give us your name or phone number at the door.</p>
+				<div>
+					<p onclick='endpopup("reservationpopup1")'>Done</p>
+				</div>
+			</div>
+		</div><!--End popup-->
+	
+	
+	
+	<div id="triplesectionwrapper">
+		<!--Informational Section Chef-->
+		<section class="triplesection">
+			<img src="images/chef.jpg">
+			<article>
+				<h1>Welcome Our New Chef!</h1>
+				<p>Chef Adam Jones is one of the top pastry and restaurant chefs in the area with experience in gluten and wheat-free foods. <a href="reviews.html"> Come grab a bite made by one of the best!</a></p>
+			</article>
+		</section>
+		<!--End Informational Section Chef-->
+
+
+		<!--Informational Section Gluten-Free-->
+		<section class="triplesection">
+			<img src="images/nutrition.jpg">
+			<article>
+				<h1>Gluten-Free Products!</h1>
+				<p>We pride ourselves in creating delicious pastries and breads while also staying gluten-free. Learn more about our personal statement <a href="nutrition.html">here.</a></p>
+			</article>
+		</section>
+		<!--End Informational Section Gluten-Free-->
+
+
+		<!--Informational Section Celiac Disease-->
+		<section class="triplesection">
+			<img src="images/bakesale.png" id="bakesale">
+			<article>
+				<h1>Participate in our Bake Sale!</h1>
+				<p>All through January, Breadible will be baking cakes and pastries to benefit the Celiac Disease Foundation. Learn more about living gluten-free here:
+					<br><a href=https://celiac.org/ target="_blank" id="sectionlink">Celiac Disease Foundation</a></p>
+			</article>
+		</section>
+		<!--End Information Section Celiac Disease-->
+	</div>
+
+
+	<!--Footer-->
+	<div id="footer">
+		<!-- Social Media-->
+		<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
+		<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+		<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+		<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
+		<!--Legal Notice and Copyright Issue-->
+		<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+		<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
+	</div><!--End Footer-->
+
+
+
+</body>
+</html>

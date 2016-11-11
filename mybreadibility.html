@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>My Breadibility | Breadible</title>
+	<link rel="stylesheet" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="main.js"></script>
+	<!-- Modernizr -->
+	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)">
+	<!--Responsive design for tablet-->
+	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)">
+	<!--Responsive design for phone-->
+</head>
+
+<body>
+	<!--Header that contains the logo-->
+	<header>
+		<!--Small decorative div at the top that displays the phone number-->
+		<div id="phonenumberdiv">
+			<p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
+
+				<b id=phonenumber2>555-555-5555</b></p>
+
+			<!--Logo-->
+			<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+		</div>
+	</header>
+
+	<!--Navigation-->
+	<nav id="navigation">
+
+		<img src="images/menuicon.png" id="icon" onclick="drop()" height="7%" width="7%"></img>
+		<ul id="menudropdown">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li class="active"><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+
+		<ul id="navi">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li class="active"><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+	</nav>
+	<!--Welcome & Description-->
+	<h1 id="Breadibility-h1">Welcome To My Breadibility</h1>
+	<br>
+	<p id="Breadibility-p">Here we offer opportunities for you to earn dicounts, learn recipes, and even get free prizes!</p>
+	<!-- Login-->
+	<div class=login id = "login">
+		<form id = "frm">
+			<h1>Login</h1>
+			<p>
+				Username:
+				<input type="text" name="user" placeholder="Username" id="username">
+				<br> Password:
+				<input type="password" name="pass" placeholder="Password" id="password">
+				<br>
+				<a href="mybreadibilityuser.html" onclick="return login()"><input type="button" id ="logsub" value="Submit"></a>
+				<br>
+				<a href=# onclick="passwordpopup()">Forgot password?</a>
+			</p>
+		</form>
+		
+	</div>
+	<!--Forgot Password Popup-->
+	<div id="passwordpopup">
+		<div id="passwordmessage">
+			<p onclick="endpopup('passwordpopup')" id="exitpopup">&#10008;</p>
+			<h1>Forgot your password?</h1>
+			<p>Enter your email to receive a new temporary password</p>
+			<br> Email:
+			<input id="emailinput">
+			<div id="passwordsubmit">
+				<p onclick='sendemail()'>Submit</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Signup-->
+	<div id="signup" >
+		<p>Don't have an account <a href="#" onclick="signuppopup()">Sign up now.</a></p>
+	</div>
+	
+	
+	
+	<!-- Signup Popup (Hidden)-->
+	<div id="signuppopup">
+		<div id="signupmessage">
+			<span onclick="endpopup('signuppopup')" id="exitpopup">&#10008;</span>
+			<h1>Sign up</h1>
+			<h2 style="font-size:1.25em;">It's free and anyone can join! Simply fill out the form below and you'll be on your way to enjoying free rewards and surprises for eating at Breadible</h2><br><br>
+			<!-- Input Criteria-->
+			<p>First Name*</p><input id="name"><!--Information to fill out-->
+			<p>Last Name*</p><input id="lastname">
+			<p>Your Email*</p><input id="emailinput1">
+			<p>Confirm Email*</p><input id="emailinput2">
+			<p>Username*</p><input id="username2">
+			<p>Password*</p><input type=password id="password1">
+			<p>Confirm Password*</p><input type=password id="password2">
+			
+			<p>Birthday(optional)</p>
+			<select>
+				<!--Months-->
+				<option disabled selected>Month</option>
+				<option>January</option>
+				<option>February</option>
+				<option>March</option>
+				<option>April</option>
+				<option>May</option>
+				<option>June</option>
+				<option>July</option>
+				<option>August</option>
+				<option>September</option>
+				<option>October</option>
+				<option>November</option>
+				<option>December</option>
+			</select>
+				<!--End Months-->
+			
+			<select>
+				<!-- Days-->
+				<option disabled selected>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+				<option>29</option>
+				<option>30</option>
+				<option>31</option>
+			</select>
+				<!--End Days-->
+			
+			<select>
+				<!-- Years-->
+				<option disabled selected>Year</option>
+				<option>1920</option>
+				<option>1921</option>
+				<option>1922</option>
+				<option>1923</option>
+				<option>1924</option>
+				<option>1925</option>
+				<option>1926</option>
+				<option>1927</option>
+				<option>1928</option>
+				<option>1929</option>
+				<option>1930</option>
+				<option>1931</option>
+				<option>1932</option>
+				<option>1933</option>
+				<option>1934</option>
+				<option>1935</option>
+				<option>1936</option>
+				<option>1937</option>
+				<option>1938</option>
+				<option>1939</option>
+				<option>1940</option>
+				<option>1941</option>
+				<option>1942</option>
+				<option>1943</option>
+				<option>1944</option>
+				<option>1945</option>
+				<option>1946</option>
+				<option>1947</option>
+				<option>1948</option>
+				<option>1949</option>
+				<option>1950</option>
+				<option>1951</option>
+				<option>1952</option>
+				<option>1953</option>
+				<option>1954</option>
+				<option>1955</option>
+				<option>1956</option>
+				<option>1957</option>
+				<option>1958</option>
+				<option>1959</option>
+				<option>1960</option>
+				<option>1961</option>
+				<option>1962</option>
+				<option>1963</option>
+				<option>1964</option>
+				<option>1965</option>
+				<option>1966</option>
+				<option>1967</option>
+				<option>1968</option>
+				<option>1969</option>
+				<option>1970</option>
+				<option>1971</option>
+				<option>1972</option>
+				<option>1973</option>
+				<option>1974</option>
+				<option>1975</option>
+				<option>1976</option>
+				<option>1977</option>
+				<option>1978</option>
+				<option>1979</option>
+				<option>1980</option>
+				<option>1981</option>
+				<option>1982</option>
+				<option>1983</option>
+				<option>1984</option>
+				<option>1985</option>
+				<option>1986</option>
+				<option>1987</option>
+				<option>1988</option>
+				<option>1989</option>
+				<option>1990</option>
+				<option>1991</option>
+				<option>1992</option>
+				<option>1993</option>
+				<option>1994</option>
+				<option>1995</option>
+				<option>1996</option>
+				<option>1997</option>
+				<option>1998</option>
+				<option>1999</option>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+				<option>2003</option>
+				<option>2004</option>
+				<option>2005</option>
+				<option>2006</option>
+				<option>2007</option>
+				<option>2008</option>
+				<option>2009</option>
+				<option>2010</option>
+			</select>
+				<!--End years-->
+			
+			<!--Submit the popup box-->
+			<div id="passwordsubmit">
+				<p onclick='signupsubmit()'>Submit</p>
+			</div>
+		</div>
+	</div>
+<!--End Signup Popup-->
+
+
+
+	<!--FAQ-->
+	<div class="triplesectionmobile">
+		<div class=faq>
+			<ul>
+				<h1>FAQ</h1>
+				<li onClick="faqclick('faq6')">What Is My Breadibility?</li>
+				<p id="faq6"> My Breadibility is our unique program to reward customers for dining with us. We offer a variety of prizes that can be redeemed with points earned from purchases.</p>
+				<br>
+				<li onClick="faqclick('faq1')">How does it work?</li>
+				<p id="faq1"> Evertime you make a purchase, our employees will ask you for your My Breadibility card. With it we will look up your account information and add points corresponding to your purchase. From your mobile device or computer, you can redeem rewards with these points.</p>
+				<br>
+				<li onClick="faqclick('faq2')">How many points do I get for...?</li>
+				<p id="faq2"> The point system is quite simple actually. Everyone has different preferences on food and different food items cost different prices. So, rather than count the dollars you spend, we count the amount of servings you order. Each serving translates to 100 points. You can also get anywhere between 10-100 points for answering surveys on the website about your taste buds.</p>
+				<br>
+				<li onClick="faqclick('faq3')">How many points do I have?</li>
+				<p id="faq3"> To check how many points you have, simply login above to see your point balance. You can redeem your points for rewards or stack them up for larger rewards.</p>
+				<br>
+				<li onClick="faqclick('faq4')">How do I redeem offers?</li>
+				<p id="faq4">To redeem offers go to Offers page once logged in and press on the offer you wish to redeem. You will then be mailed a code to give to the cashiers at Breadible in order to have your offer completed.</p>
+				<br>
+				<li onClick="faqclick('faq5')">Where can I get started?!</li>
+				<p id="faq5"> Come visit us at our restaurant and talk to any of our employees to get started or just make an account by clicking <a href="#" onclick="signuppopup()" id="here">here.</a> </p>
+				<br>
+			</ul>
+		</div>
+	</div>
+	<!--End FAQ-->
+
+
+	<!-- Brief Reward List-->	
+	<div class="triplesectionmobile">
+		<h1 style="text-align:center; margin-bottom:10px;">MyBreadibility Rewards</h1>
+		<table id="nutritiontable" cellspacing = "0px">
+			<tr class="border_bottom">
+	    		<td>Item</td>
+	    		<td>Description</td>
+	    		<td>Points</td>
+	    		<td>Available Until</td>
+		    </tr>
+			<tr>
+				<td>Free Drink</td>
+	    		<td>Any one drink will be free for your next purchase</td>
+	    		<td>500</td>
+	    		<td>12/31/2016</td>
+	    	</tr>
+			<tr>
+				<td>Buy One Get One Free</td>
+	    		<td>Pick any Pastry and Get another Free!</td>
+	    		<td>1000</td>
+	    		<td>02/29/2016</td>
+	    	</tr>
+			<tr>
+				<td>50% Any Purchase</td>
+	    		<td>Get 50% off your entire purchase</td>
+	    		<td>1500</td>
+	    		<td>06/01/2016</td>
+	    	</tr>
+			<tr>
+				<td>Bread of Fame</td>
+	    		<td>Get a portrait of yourself etched out in bread and hung on our wall</td>
+	    		<td>10000</td>
+	    		<td>12/31/2016</td>
+	    	</tr>
+		</table>
+	</div>
+	<!--End Rewards List-->
+	
+	
+	
+	
+	<!--Rewards Card Image-->
+	<div class="triplesectionmobile" id="rewards">
+		<div id="rewardscard">
+			<h1>Receive a Rewards Card!</h1>
+			<p>
+				Join today to stack up on points from buying Breadible Products! Later cash the points in for amazing prizes, from a complementary muffin to free drinks with your orders.
+			</p>
+			<img src="images/mybreadibilitycard.png">
+		</div>
+	</div>
+	<!--End Rewards Card Image-->
+
+
+	<!--Footer-->
+	<div id="footer">
+		<!-- Social Media-->
+		<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
+		<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+		<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+		<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
+		<!--Legal Notice and Copyright Issue-->
+		<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+		<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
+	</div>
+</body>
+
+</html>

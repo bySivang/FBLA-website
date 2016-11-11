@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en-us" id=“insurancebody">
+
+<head >
+	<meta charset="UTF-8">
+	<title>Insurance Waivers | Name</title>
+	<link rel="stylesheet" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)">
+	<!--Responsive design for tablet-->
+	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)">
+	<!--Responsive design for phone-->
+</head>
+
+<body>
+
+
+
+	<!--Header that contains the logo-->
+	<header>
+		<!--Small decorative div at the top that displays the phone number-->
+		<div id="phonenumberdiv">
+			<p>Call us at <b><a id=phonenumber href="tel:7329866866">732-281-9372</a></b>
+				<b id=phonenumber2>732-281-9372</b></p>
+			<!--Logo-->
+			<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+		</div>
+	</header>
+
+
+
+
+
+
+	<!--Navigation-->
+	<nav id="navigation">
+		<!--Mobile navigation (Hidden in desktop)-->
+		<img src="images/menuicon.png" id="icon" onclick="drop()" height="7%" width="7%"></img>
+		<ul id="menudropdown">
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+		
+		<!--Desktop navigation (Hidden in desktop)-->
+		<ul id="navi">
+			<li><a href="index.html">Home</a></li>
+			<li class="active"><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+	</nav>
+
+
+
+
+
+	<!--Secondary Navigation to choose your menu-->
+	<table id=menu_navigation>
+		<tr>
+			<td id="menus">
+				<a href="#" onclick="menuswap('overview')">Overview</a>
+			</td>
+			<td id="menus">
+				<a href="#" onclick="menuswap('pastries')">Pastries</a>
+			</td>
+			<td id="menus">
+				<a href="#" onclick="menuswap('soups')">Soups</a>
+			</td>
+			<td id="menus">
+				<a href="#" onclick="menuswap('sandwiches')">Sandwiches</a>
+			</td>
+			<td id="menus">
+				<a href="#" onclick="menuswap('pastas')">Pastas</a>
+			</td>
+			<td id="menus">
+				<a href="#" onclick="menuswap('salads')">Salads</a>
+			</td>
+		</tr>
+	</table>
+	
+	
+	
+	
+	
+	<!-- Overview Menu -->
+	<table id="menu_overview">
+		<td>
+			<div id="borderdecoration">
+				<h1>Savor Flavor While Staying Gluten-Free</h1></div>
+			<p id="overview">
+				At Breadible, fresh bread, pasta, and sandwiches are made from scratch and by hand daily. By using only premium ingredients and gluten-free products from local farmers and suppliers we look to help turn New Jersey into a great location to eat healthy while staying on a budget. To learn more about our nutritional statement or for information on creating a menu that suits you, press <a href="nutrition.html">here.</a>
+			</p>
+		</td>
+	</table>
+
+
+	
+	<!-- Soup Menu -->
+	<div id="menu_soups" class="triplesectionwrapper">
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Tomato Soup</td>
+				<td class="food_price">$2.60</td>
+			</tr>
+			<tr>
+				<td class="food_description">Tomato Soup with Onion, Black Pepper, and Basil</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Seafood Chowder</td>
+				<td class="food_price">$2.90</td>
+			</tr>
+			<tr>
+				<td class="food_description">Shrimp, Clams, Potatoes and Corn</td>
+			</tr>
+		</table>
+
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Chicken Noodle Soup</td>
+				<td class="food_price">$2.40</td>
+			</tr>
+			<tr>
+				<td class="food_description">Chicken, Garlic, Onions, Carrots, Celery and Thyme</td>
+			</tr>
+		</table>
+
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Drinks</td>
+				<td class="food_price">$1.60</td>
+			</tr>
+			<tr>
+				<td class="food_description">Water (Free), Lemonade, Ice Tea, Coffee, Apple Juice</td>
+			</tr>
+		</table>
+	</div>
+
+
+
+
+	<!-- Salad Menu -->
+	<div id="menu_salads" class="triplesectionwrapper">
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Caesar Salad</td>
+				<td class="food_price">$2.20</td>
+			</tr>
+			<tr>
+				<td class="food_description">Salad with Chicken, Parmesan Cheese, Lettuce, Croutons and Caesar Dressing</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Chicken Salad</td>
+				<td class="food_price">$2.60</td>
+			</tr>
+			<tr>
+				<td class="food_description">Chicken, Lettuce, Tomatoes, Croutons, Ranch Dressing</td>
+			</tr>
+		</table>
+
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Greek Salad</td>
+				<td class="food_price">$2.80</td>
+			</tr>
+			<tr>
+				<td class="food_description">Salad with Romaine Lettuce, Tomatoes, Cucumbers, Onions, Red Cabbage, Carrots, Olives, Feta Cheese, and Greek Dressing</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Kale Salad</td>
+				<td class="food_price">$2.45</td>
+			</tr>
+			<tr>
+				<td class="food_description">Salad with Chicken, Kale, Parmesan Cheese, and Caesar Dressing</td>
+			</tr>
+		</table>
+
+		<table class="triplesectionmobile">
+
+			<tr>
+				<td class="food_header">Drinks</td>
+				<td class="food_price">$1.60</td>
+			</tr>
+			<tr>
+				<td class="food_description">Water (Free), Lemonade, Ice Tea, Coffee, Apple Juice</td>
+			</tr>
+		</table>
+	</div>
+
+
+
+
+	<!-- Sandwich Menu -->
+	<div id="menu_sandwiches" class="triplesectionwrapper">
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Grilled Cheese</td>
+				<td class="food_price">$2.30</td>
+			</tr>
+			<tr>
+				<td class="food_description">American Cheese Grilled on White, Gluten-Free Bread</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Cheesesteak</td>
+				<td class="food_price">$2.99</td>
+			</tr>
+			<tr>
+				<td class="food_description">Sirloin, Provolone Cheese, Mushrooms, Onions</td>
+			</tr>
+		</table>
+
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Turkey Sandwich</td>
+				<td class="food_price">$2.65</td>
+			</tr>
+			<tr>
+				<td class="food_description">Turkey Breast, Lettuce, Tomatoes, Mayonnaise</td>
+			</tr>
+		</table>
+
+		<table class="triplesectionmobile">
+
+			<tr>
+				<td class="food_header">Drinks</td>
+				<td class="food_price">$1.60</td>
+			</tr>
+			<tr>
+				<td class="food_description">Water (Free), Lemonade, Ice Tea, Coffee, Apple Juice</td>
+			</tr>
+		</table>
+	</div>
+
+
+
+
+	<!-- Pasta Menu -->
+	<div id="menu_pastas" class="triplesectionwrapper">
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Eggplant Pasta</td>
+				<td class="food_price">$3.75</td>
+			</tr>
+			<tr>
+				<td class="food_description">Eggplant, Grape Tomatoes, Celery and Pine Nuts</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Gnocchi in Mushroom Sauce</td>
+				<td class="food_price">$4.50</td>
+			</tr>
+			<tr>
+				<td class="food_description">Dried Porcini Mushrooms, Leeks with Gnocchi</td>
+			</tr>
+		</table>
+
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Lasagna</td>
+				<td class="food_price">$4.00</td>
+			</tr>
+			<tr>
+				<td class="food_description">Beef, Garlic, Tomato Sauce, Dried Basil Leaves, Ricotta Cheese and Mozzarella Cheese</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Sausage Ravioli</td>
+				<td class="food_price">$3.99</td>
+			</tr>
+			<tr>
+				<td class="food_description">Italian Sausage, Ricotta Cheese, and Nutmeg</td>
+			</tr>
+		</table>
+
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Fettuccine Alfredo</td>
+				<td class="food_price">$3.80</td>
+			</tr>
+			<tr>
+				<td class="food_description">Fettuccine made with Romano and Parmesan Cheese and a Dash of Garlic Salt</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Drinks</td>
+				<td class="food_price">$1.60</td>
+			</tr>
+			<tr>
+				<td class="food_description">Water (Free), Lemonade, Ice Tea, Coffee, Apple Juice</td>
+			</tr>
+		</table>
+	</div>
+
+
+
+
+
+	<!-- Pastries Menu -->
+	<div id="menu_pastries" class="triplesectionwrapper">
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Classic Croissant</td>
+				<td class="food_price">$1.18</td>
+			</tr>
+			<tr>
+				<td class="food_description">Sweet, Traditional Croissant. Buttery, Flakey Pastry</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Muffin</td>
+				<td class="food_price">$0.75</td>
+			</tr>
+			<tr>
+				<td class="food_description">Blueberry, Buttermilk Chocolate Chip, Banana Oatmeal</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Cookies</td>
+				<td class="food_price">$1.00</td>
+			</tr>
+			<tr>
+				<td class="food_description">Oatmeal Raisin, Chocolate Chip, Sugar, Raspberry and White Chocolate</td>
+			</tr>
+
+		</table>
+
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Chocolate Croissant</td>
+				<td class="food_price">$1.25</td>
+			</tr>
+			<tr>
+				<td class="food_description">Buttery Croissant with a Chocolate Filling</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Bagel</td>
+				<td class="food_price">$1.45</td>
+			</tr>
+			<tr>
+				<td class="food_description">Cinammon Raisin, Poppy Seed, Plain, Blueberry</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Scones</td>
+				<td class="food_price">$1.50</td>
+			</tr>
+			<tr>
+				<td class="food_description">Blueberry, Pumpkin, Chocolate Chip</td>
+			</tr>
+		</table>
+
+		<table class="triplesectionmobile">
+			<tr>
+				<td class="food_header">Cinnamon Roll</td>
+				<td class="food_price">$1.25</td>
+			</tr>
+			<tr>
+				<td class="food_description">Cinnamon Sugar Filled Dessert, Covered in Thin Icing</td>
+			</tr>
+
+			<tr>
+				<td class="food_header">Drinks</td>
+				<td class="food_price">$1.60</td>
+			</tr>
+			<tr>
+				<td class="food_description">Water (Free), Lemonade, Ice Tea, Coffee, Apple Juice</td>
+			</tr>
+		</table>
+
+		<p>*Join us for Happy Hour! Enjoy discounted baked goods.
+			<br>7pm-9pm Everyday!</p>
+	</div>
+	<!--End Pastries menu-->
+	
+	
+	
+	
+	
+	
+	<!--Footer-->
+	<div id="footer">
+		<!-- Social Media-->
+		<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
+		<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+		<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+		<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
+		<!--Legal Notice and Copyright Issue-->
+		<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+		<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
+	</div>
+
+
+</body>
+
+<script type="text/javascript" src="main.js"></script> <!--Main javascript file-->
+</html>

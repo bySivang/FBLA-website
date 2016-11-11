@@ -1,0 +1,1348 @@
+/*Style Sheet*/
+
+/*COLORS USED:
+
+Dark Brown:#4A221A
+Orange:#BE5D16
+Tan:#DEB887*/
+
+* { /*Sets all margins and paddings to 0 */
+	margin: 0;
+	padding: 0;
+}
+ 
+/* General Styles & Index*/
+body {
+	position: relative;
+	background-color: #DEB887;
+	background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
+	height: 100%;
+	width: 100%;
+}
+
+.imageslider {
+	position: relative;
+	margin: 1% 0px;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#phonenumberdiv {
+	height: 200px;
+	width: 100%;
+	background-color: #4A221A;
+	color: #BE5D16;
+	background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+}
+
+#phonenumberdiv p {
+	padding: 10px 10px;
+	font-family: 'Sansita One', cursive;
+	text-align: right;
+}
+
+#logo {
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+#navigation {
+	font-family: 'Sansita One', cursive;
+	font-size: 1em;
+	text-align: center;
+	background-color: #4A221A;
+	color: #BE5D16;
+	background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+	
+}
+
+#navigation ul {
+	list-style-type: none;
+}
+
+#navigation ul li {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+nav a:hover {
+	color: #ffffff;
+}
+
+nav a {
+	color: #B25D16;
+	text-decoration: none;
+}
+
+#triplesectionwrapper {
+	display: block;
+	margin: auto;
+	padding: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.triplesectionwrapper {
+	display: block;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.triplesection {
+	width: 33%;
+	float: left;
+	font-family: 'Medula One', cursive;
+	margin-bottom: 10px;
+}
+
+.triplesectionmobile {
+	width: 33%;
+	float: left;
+	font-family: 'Medula One', cursive;
+	margin-bottom: 10px;
+}
+
+.triplesection img {
+	width: 200px;
+	height: 200px;
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 25%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #BE5D16;
+	margin-bottom: 10px;
+	display: block;
+	margin: auto;
+}
+
+#bakesale {
+	border-width: 0px;
+}
+
+.triplesection h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+.triplesection p {
+	width: 90%;
+	font-size: 1.3em;
+	text-align: center;
+	margin: auto;
+}
+
+#sectionlink {
+	color: #BE5D16;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+#footer {
+	font-family: 'Medula One', cursive;
+	width: 100%;
+	height: 100px;
+	background-color: #4A221A;
+	color: #BE5D16;
+	clear: both;
+	background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+}
+
+#copyright {
+	padding-top: 30px;
+	padding-left: 20px;
+	font-size: 1.5em;
+}
+
+#lawyerstuff {
+	clear: both;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+
+.triplesection a {
+	color: #BE5D16;
+}
+
+#footer a {
+	color: #BE5D16;
+}
+
+.socialmedia {
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin: 10px 10px;
+}
+
+#phonenumber {
+	display: none;
+}
+
+#homeinfo {
+	font-family: 'Sansita One', cursive;
+	font-size: 2em;
+	color: white;
+	opacity: .7;
+	letter-spacing: 5px;
+	position: absolute;
+	top: 20%;
+	right: 0px;
+	height: 40%;
+	width: 40%;
+	text-align: center;
+}
+
+#homeinfo2 {
+	font-family: 'Sansita One', cursive;
+	font-size: 1.7em;
+	color: white;
+	opacity: .7;
+	letter-spacing: 5px;
+	position: absolute;
+	top: 60%;
+	left: 0px;
+	height: 40%;
+	width: 40%;
+	text-align: center;
+}
+
+#reservation {
+	position: absolute;
+	bottom: 0;
+	height: 20%;
+	width: 100%;
+	background-color: #4A221A;
+	opacity: .8;
+	
+}
+
+#datepicker {
+	width:80px;
+}
+
+
+#submitbutton:hover {
+	cursor: pointer;
+	border: 2px #DEB887 solid;
+}
+
+#submitbutton {
+	font-family: 'Medula One', cursive;
+	font-size: 1.3em;
+	border: none;
+	color: white;
+	background-color: #BE5D16;
+	height: 40px;
+	width: 120px;
+}
+
+#numberofpeople {
+	width: 80px;
+	margin-right: 50px;
+}
+
+#menubody {
+	height:100%;
+}
+
+::-webkit-input-placeholder {
+	color: white;
+}
+
+:-moz-placeholder {
+	/* Firefox 18- */
+	color: white;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	color: white;
+}
+
+:-ms-input-placeholder {
+	color: white;
+}
+
+form {
+	margin-top: 2%;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-family: 'Medula One', cursive;
+	font-size: 1.2em;
+	opacity: 1;
+}
+
+input {
+	border: none;
+	width: 65px;
+	color: white;
+	background-color: #4A221A;
+	border: 2px #BE5D16 solid;
+	padding: 5px;
+}
+
+select {
+	border: none;
+	color: white;
+	background-color: #4A221A;
+	border: 2px #BE5D16 solid;
+	padding: 5px;
+}
+
+#secondnav {
+	height: 40px;
+	background-color: rgba(74, 34, 26, .9);
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	color: #BE5D16;
+	font-family: 'Medula One', cursive;
+	letter-spacing: 2px;
+	padding-top: 10px;
+	background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+}
+
+.responsivediv {
+	display: inline-block;
+	text-align: center;
+	width: 32%;
+	max-width: 300px;
+}
+
+
+
+
+
+
+
+
+/*Privacy Policy Page*/
+#privacypolicy {
+	max-width: 700px;
+	margin: auto;
+	padding: 0px 10px;
+}
+
+#privacypolicy h1 {
+	margin-top: 20px;
+	font-family: 'Sansita One', cursive;
+	text-align: left;
+	font-size: 2em;
+	color: #BE5D16;
+}
+
+#privacypolicy h2 {
+	font-family: 'Sansita One', cursive;
+	text-align: left;
+	font-size: 1.5em;
+	color: #BE5D16;
+	margin: 10px 0px;
+}
+
+#privacypolicy p {
+	font-family: 'Medula One', cursive;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+#legalsidebar {
+	float: right;
+	width: 25%;
+}
+
+#privacyarticle {
+	width: 70%;
+}
+
+#privacypolicy a {
+	text-decoration: none;
+	color: #BE5D16;
+}
+
+
+
+
+
+
+/* Reviews Page */
+#top3reviews {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#ratingimage {
+	max-height: 30px;
+	max-width: 30px;
+	border: none;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+#circleimage {
+	border-radius: 50%;
+	border-color: #DB984C;
+}
+
+.triplesection h2 {
+	font-size: 2em;
+	color: #BE5D16;
+}
+
+#top3reviews > h1 {
+	margin-top: 20px;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	color: #BE5D16;
+}
+
+#top3reviews > h2 {
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+	color: #BE5D16;
+	margin: 10px 0px;
+}
+
+#container {
+	height: 550px;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+
+
+/*Menu Page*/
+#menubody body #footer {
+	position:absolute;
+	bottom:0;
+}
+
+#hours {
+	width: 95px;
+}
+
+#menus {
+	color: #BE5D16;
+	padding: 5px 10px;
+	font-family: 'Medula One', cursive;
+	font-size: 1.7em;
+}
+
+#menu_overview {
+	margin: auto;
+	width: 95%;
+	max-width: 800px;
+	text-align: center;
+}
+
+#menus a {
+	text-decoration: none;
+	color: #BE5D16;
+}
+
+#menus a:hover {
+	color: #4A221A;
+}
+
+#menu_soups {
+	display: none;
+}
+
+#menu_sandwiches {
+	display: none;
+}
+
+#menu_pastas {
+	display: none;
+}
+
+#menu_pastries {
+	display: none;
+}
+
+#menu_pastries p {
+	text-align: center;
+	font-family: 'Medula One', cursive;
+	font-size: 1.2em;
+}
+
+#menu_salads {
+	display: none;
+}
+
+#overview {
+	font-size: 1.4em;
+	font-family: 'Medula One', sans-serif;
+	margin-bottom: 20px;
+}
+
+.food_header {
+	max-width: 300px;
+	width: 2%;
+	padding-left: 5%;
+	text-align: left;
+	color: #BE5D16;
+	font-family: 'Medula One', cursive;
+	font-size: 1.7em;
+	border-left: solid #BE5D16 2px;
+}
+
+.food_price {
+	width: .5%;
+	text-align: center;
+	font-family: 'Medula One', cursive;
+	font-size: 1.5em;
+}
+
+.food_description {
+	max-width: 300px;
+	width: 2%;
+	padding-left: 5%;
+	text-align: left;
+	font-family: 'Medula One', cursive;
+	font-size: 1.3em;
+	padding-bottom: 25px;
+}
+
+#menu_navigation {
+	margin-bottom: 20px;
+}
+
+#borderdecoration {
+	max-width: 550px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Medula One', cursive;
+	font-size: 1.5em;
+	color: #BE5D16;
+	border-bottom: solid #BE5D16 2px;
+	border-top: solid #BE5D16 2px;
+	margin-bottom: 10px;
+	padding: 10px 0px;
+}
+
+#overview a {
+	color: #BE5D16;
+}
+
+
+
+
+
+
+/*Popups*/
+#reservationpopup {
+	display: none;
+	box-sizing:border-box;
+	padding: 400px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9005;
+}
+
+#passwordpopup {
+	display:none;
+	padding: 300px 0 0;
+	box-sizing:border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9005;
+}
+
+#contactpopup {
+	display: none;
+	box-sizing: border-box;
+	padding: 650px 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9005;
+}
+
+#reviewpopup {
+	display: none;
+	box-sizing: border-box;
+	padding: 900px 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9005;
+}
+
+#reservationpopup1 {
+	display: none;
+	box-sizing:border-box;
+	padding: 400px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9005;
+}
+
+#reservationmessage {
+	margin: auto;
+	opacity: 1;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	background-color: #4A221A;
+	color: #BE5D16;
+	font-family: 'Medula One', cursive;
+	padding: 20px;
+}
+
+#reservationmessage div {
+	width: 40px;
+	margin-left: 80%;
+	text-align: center;
+}
+
+#passwordmessage {
+	margin: auto;
+	opacity: 1;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	background-color: #4A221A;
+	color: #BE5D16;
+	font-family: 'Medula One', cursive;
+	padding:0px 20px 20px;
+}
+
+#passwordmessage h1 {
+	clear:both;
+}
+
+#passwordsubmit {
+	padding-top: 10px;
+	cursor: pointer;
+	width: 40px;
+	text-align: center;
+	margin: auto;
+}
+
+#emailinput {
+	width:250px;
+}
+
+#reservationmessage div p:hover {
+	cursor: pointer;
+}
+
+#reviewform {
+	width: 95%;
+	margin: auto;
+}
+
+#decorationborder {
+	clear: both;
+	display: block;
+	height: 420px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .1);
+	margin: 10px 0px;
+}
+
+
+
+
+
+/* Leave a Review*/
+#radiobutton {
+	width: 20px;
+}
+
+.border_bottom td {
+	border-bottom: 2px #4A221A solid;
+}
+
+.padding_top td {
+	padding-top: 2px;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+label {
+	cursor: pointer;
+}
+
+input[type="radio"] + label:before {
+	border: 2px solid #4A221A;
+	content: "\00a0";
+	display: inline-block;
+	font: 16px/1em sans-serif;
+	height: 16px;
+	margin: 0 .25em 0;
+	padding: 0;
+	vertical-align: top;
+	width: 16px;
+}
+
+input[type="radio"]:checked + label:before {
+	background: #4A221A;
+	color: #BE5D16;
+	content: "\2714";
+	text-align: center;
+}
+
+#badradio {
+	padding: 0px 3px;
+}
+
+th {
+	font-weight: normal;
+	color: #4A221A;
+	padding-right: 10px;
+}
+
+.reviewdiv {
+	display: block;
+	margin: auto;
+	clear: both;
+}
+
+.reviewinput {
+	width: 150px;
+	border: none;
+	color: white;
+	background-color: #4A221A;
+	border: 2px #BE5D16 solid;
+	padding: 5px;
+}
+
+#reviewcomments {
+	width: 75%;
+	max-width: 600px;
+	height: 40px;
+}
+
+
+
+
+
+
+/*Maps*/
+.adp-text {
+	background-color: #4A221A;
+	color: #BE5D16;
+	font-family: 'Medula One', cursive;
+	font-size: 1.5em;
+}
+
+.adp-placemark {
+	background-color: #4A221A !important;
+	border: 2px #BE5D16 solid !important;
+}
+
+#map {
+	width: 100%;
+	height: 400px;
+}
+
+#warnings-panel {
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	float: right;
+}
+
+#floating-panel {
+	position: absolute;
+	top: 10px;
+	left: 25%;
+	z-index: 5;
+	background-color: rgba(255, 255, 255, .7);
+	padding: 5px;
+	border: 1px solid #999;
+	text-align: center;
+	font-family: 'Roboto', 'sans-serif';
+	line-height: 30px;
+	padding-left: 10px;
+	width: 200px;
+}
+
+#floating-panel input {
+	width: 150px;
+}
+
+#right-panel {
+	font-family: 'Roboto', 'sans-serif';
+	line-height: 30px;
+	text-align: center;
+}
+
+#right-panel select,
+#right-panel input {
+	font-size: 15px;
+}
+
+#right-panel i {
+	font-size: 12px;
+}
+
+#right-panel {
+	height: 100%;
+	width: 50%;
+	float: right;
+	overflow: auto;
+}
+
+#map {
+	margin-right: 400px;
+	float: left;
+}
+
+#floating-panel {
+	padding: 5px;
+	font-size: 14px;
+	font-family: Arial;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+	display: none;
+}
+
+
+
+
+
+
+/* Contact Us Form*/
+#contact-form {
+	display: inline-block;
+	width: 45%;
+	margin: auto;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#contact-form h1 {
+	font-family: 'Medula One', cursive;
+	font-size: 1.5em;
+	color: #4A221A;
+}
+
+#contact-form h2 {
+	font-family: 'Medula One', cursive;
+	font-size: 1.2em;
+	color: #4A221A;
+}
+
+#contact-form input {
+	margin: 5px 0px;
+}
+
+#contact-sub {
+	max-width: 100px;
+}
+
+#contact-form input {
+	width: 100%;
+}
+
+#contactem {
+	font-size: 12px;
+	color: #4A221A;
+}
+
+#Msg {
+	width: 100%;
+	height: 100px;
+}
+
+table {
+	margin: auto;
+}
+
+textarea {
+	resize: none;
+}
+
+
+
+
+
+/* Drop Down Menu */
+#createmenudropdown ul {
+	display: block;
+	background-color: rgba(0, 0, 0, .1);
+}
+
+#createmenudropdown li {
+	display: none;
+	background-color: red;
+}
+
+#menudropdown {
+	height: 0px;
+	-webkit-transition: height 400ms ease-in;
+	-moz-transition: height 400ms ease-in;
+	-o-transition: height 400ms ease-in;
+	Transition: height 400ms ease-in;
+	transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	/* Firefox 4 */
+	-webkit-transition-delay: .3s;
+	/* Safari and Chrome */
+	-o-transition-delay: .3s;
+	/* Opera */
+	display: none;
+}
+
+#icon {
+	display: none;
+}
+
+
+
+
+
+
+
+/* Nutrition Page*/
+.triplesectionmobile #nutritiontable {
+	width:95%;
+}
+
+.triplesectionmobile #nutritiontable td:nth-child(2) {
+	width:50%;
+}
+
+.triplesectionmobile #nutritiontable td:nth-child(4) {
+	text-align:center;
+}
+
+.triplesectionmobile #nutritiontable td{
+	padding:5px;
+}
+
+#secondnav a {
+	color: #BE5D16;
+	text-decoration: none;
+}
+
+#nutritionbody {
+	text-align: center;
+	width: 95%;
+	margin: 10px auto;
+}
+
+#nutritionbody article {
+	margin: 75px auto;
+}
+
+#nutritionbody #nutritionarticle {
+	margin: 45px auto 15px;
+}
+
+#nutritionbody article h2 {
+	font-family: 'Medula One', cursive;
+	letter-spacing: 2px;
+	font-size: 2em;
+	color: #4A221A;
+}
+
+#nutritionbody article p {
+	max-width: 400px;
+	margin: 10px auto 0px;
+	padding: 0 50px 40px;
+	opacity: .8;
+	font-family: 'Medula One', cursive;
+	font-size: 1.3em;
+	color: #4A221A;
+	border-bottom: 2px #4A221A solid;
+}
+
+#nutritiontable {
+	width: 100%;
+	border: 2px #4A221A solid;
+	opacity: .8;
+	font-family: 'Medula One', cursive;
+	font-size: 1.3em;
+	color: #4A221A;
+	border-bottom: 2px #4A221A solid;
+}
+
+#nutritiontable td {
+	padding: 5px 0px;
+}
+
+#nutritiontable tr:nth-child(odd) {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+#nutritiontable td:first-child {
+	text-align: left;
+	padding-left: 5px;
+}
+
+#nutritionlink {
+	display: none;
+	color: #BE5D16;
+}
+
+
+
+
+
+
+/*My Breadibility Page*/
+#Breadibility-h1 {
+	max-width: 550px;
+	padding-top:10px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Medula One', cursive;
+	font-size: 2.5em;
+	text-decoration: underline;
+	color: #BE5D16;
+}
+
+#Breadibility-p {
+	max-width: 550px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Medula One', cursive;
+	font-size: 1.5em;
+}
+
+.login {
+	border-radius: 25px;
+	box-shadow: 0px 10px 5px #331712;
+	width: 90%;
+	max-width: 400px;
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-family: 'Medula One', cursive;
+	padding: 7px;
+	background-color: #4A221A;
+}
+
+.login a {
+	color: #BE5D16;
+}
+
+.login h1 {
+	font-size: 1.4em;
+	color: #BE5D16;
+	letter-spacing:1px;
+}
+
+.login input {
+	width: 35%;
+	margin: 5px;
+}
+
+.login p {
+	color: #BE5D16;
+}
+
+.faq {
+	font-family: 'Medula One', cursive;
+	font-size: 2em;
+	display: block;
+	text-align: center;
+}
+#here{
+	color: #BE5D16;
+}
+.faq h1{
+	font-size:1em;
+	margin-bottom:10px;
+}
+.faq li {
+	width: 75%;
+	margin: auto;
+	list-style-type: none;
+	cursor: pointer;
+	text-decoration: underline;
+	font-size: .8em;
+	color: #BE5D16;
+	background-color: #4A221A;
+	padding-bottom: 2px;
+}
+
+.faq p {
+	width:75%;
+	margin:auto;
+	text-decoration: none;
+	font-size: .7em;
+	z-index: 1;
+	max-height: 0;
+	overflow: hidden;
+	-webkit-transform: perspective(400) rotate3d(1, 0, 0, -90deg);
+	-webkit-transform-origin: 50% 0;
+	-webkit-transition: 350ms;
+	-moz-transition: 350ms;
+	-o-transition: 350ms;
+	transition: 350ms;
+}
+
+#signup {
+	font-family: "Medula One", cursive;
+	font-size: 1.2em;
+	display: block;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#signup a {
+	color: #BE5D16;
+}
+
+#rewardscard {
+	width: 95%;
+	margin: auto;
+	text-align: center;
+}
+
+#rewardscard img {
+	width: 100%
+}
+
+#rewardscard h1 {
+	margin-bottom: 10px;
+}
+
+#rewardscard p {
+	width: 75%;
+	margin: auto;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
+
+#exitpopup {
+	float:right;
+	cursor:pointer;
+}
+
+#signuppopup{
+	display:none;
+	padding: 150px 0 0;
+	box-sizing:border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	width: 100%;
+	z-index: 9005;
+}
+
+#signupmessage{
+	margin: auto;
+	opacity: 1;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	background-color: #4A221A;
+	color: #BE5D16;
+	font-family: 'Medula One', cursive;
+	padding:0px 20px 20px;
+}
+
+#logsub{
+	max-width:75px;
+}
+
+#signupmessage p{
+	margin:auto;
+}
+
+#signupmessage input{
+	display:block;
+	margin:auto;
+	text-align:left;
+	width: 150px;
+}
+
+#account ul{
+	list-style-type:none;
+	font-size:1.5em;
+}
+
+#started p{
+	font-size:1.5em;
+	width:80%;
+	margin:auto;
+}
+
+
+
+
+
+
+
+/*Redeem Offers Page*/
+#redeemtable {
+	border: 2px #4A221A solid;
+	opacity: .8;
+	font-family: 'Medula One', cursive;
+	font-size: 1.3em;
+	color: #4A221A;
+	border-bottom: 2px #4A221A solid;
+}
+
+#redeemtable td {
+	padding: 5px 0px;
+}
+
+#redeemtable tr:nth-child(odd) {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+#redeemtable td:first-child {
+	text-align: left;
+	padding-left: 5px;
+}
+
+.heador{
+	width: 33%;
+	margin:auto;
+	font-family: 'Medula One', cursive;
+	margin-bottom: 10px;
+}
+
+#redeemit{
+	cursor:pointer;
+}
+
+#redeempopup{
+	display: none;
+	padding: 400px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9005;
+}
+
+#redeemtable{
+	width:98%;
+	margin-bottom:10px;
+}
+
+#redeemtable td{
+	padding:5px;
+}
+
+.heador {
+	margin-top:10px;
+	color:#4A221A;
+}
+
+.blockdisplay {
+	display:block;
+	font-family: 'Medula One', cursive;
+	margin-bottom: 30px;
+	text-align:center;
+	color:#4A221A;
+}
+
+#accountcard {
+	display:block;
+	font-family: 'Medula One', cursive;
+	font-size:1.5em;
+	margin-bottom: 10px;
+	text-align:center;
+	color:#4A221A;
+}
+
+
+
+
+
+
+/*Recipe Page*/
+.recipe {
+  font-family: 'Medula One', cursive;
+  font-size: 1.3em;
+  background:#4A221A;
+  margin:10px;
+  display: block;
+  text-align:center;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+  color:#BE5D16;
+  opacity:.9;
+  padding:10px;
+  border-radius:10px;
+  box-shadow:0px -2px 0px 2px #BE5D16;
+}
+.recipe:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #BE5D16 !important;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.recipe:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+#recipelist{
+	padding:10px;
+	margin:10px;
+	height:400px;
+}
+
+#recipelist li{
+	font-size:1.2em;
+}
+
+#container2{
+	display:inline-block;
+}

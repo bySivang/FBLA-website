@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Create a Plate | Breadible</title>
+	<link rel="stylesheet" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)"><!--Responsive design for tablet-->
+	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)"><!--Responsive design for phone-->
+</head>	
+<body>
+	<!--Header that contains the logo-->
+	<header>
+		<!--Small decorative div at the top that displays the phone number-->
+		<div id="phonenumberdiv"><p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
+			
+		<b id=phonenumber2>555-555-5555</b></p>
+		
+		<!--Logo-->
+		<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+		</div>
+	</header>
+	
+	<!--Navigation-->
+	<nav id="navigation">
+		
+		<!--Mobile Nav-->
+		<img src="images/menuicon.png" id="icon" onclick="drop()" height ="7%" width ="7%"></img>
+		<ul id="menudropdown">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li class="active"><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+		
+		<!--Desktop Nav-->
+		<ul id="navi">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li class="active"><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+	</nav>
+	
+	
+
+	<!--Secondary Nav-->
+	<section id="secondnav">
+		<div class="responsivediv"><h1 ><a href="nutrition.html">Our Beliefs</a></h1></div>
+		<div class="responsivediv" style="border-left:solid 2px #BE5D16; border-right:solid 2px #BE5D16"><h1><a href="nutritionfacts.html">Nutritional Facts</a></h1></div>
+		<div class="responsivediv"><h1 class="active"><a href="#">Allergens and Diet</a></h1></div>
+	</section>
+	
+	
+	
+	<!--Small blurb Article-->
+	<section id="nutritionbody">
+	    <article id="nutritionarticle"><h2>Breadible: Nutrition Allergens</h2>
+	    	<p>If allergies or diets hinder the types of foods you can eat, check which are still available to you here.<br><br><a href="files/allergens.pdf" target="_blank" id="nutritionlink">Download the Allergens and Diet Information</a></p>
+	    </article>
+	    
+	    
+	    <!--Nutrition Table-->
+		<table id="nutritiontable" cellspacing="0">
+			<!--Special Diets-->
+	    	<tr class="border_bottom">
+	    		<td>Includes:</td>
+	    		<td>Dairy/Eggs</td>
+	    		<td>Vegetarian</td>
+	    		<td>Vegan</td>
+	    		<td>Wheat*</td> <!--All foods are gluten-free-->
+	    		<td>Seeds/Nuts</td>		
+	    		<td>Seafood</td>
+	    		<td></td>
+	    	</tr>
+	    <!--Foods-->
+	    	<tr>
+	    		<td>Classic Croissant</td>
+	    		<td>&#10008;</td><!--ID for "X" ASCII symbol-->
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    		<td rowspan=28 width=10%>*All wheat containing foods are gluten-free, although some customers may choose to remove wheat entirely.</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Muffin</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Cookies</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Chocolate Croissant</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Bagel</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Scones</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Cinnamon Roll</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Tomato Soup</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Seafood Chowder</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td>&#10008;</td>
+	    	</tr>
+	    	<tr>
+	    		<td>Chicken Noodle Soup</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Grilled Cheese</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Cheesesteak</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Turkey Sandwich</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Eggplant Pasta</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td>&#10008;</td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Gnocchi in Mushroom Sauce</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Lasagna</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Sausage Ravioli</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>
+	    		<td>&#10008;</td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Fettuccine Alfredo</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Caesar Salad</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Chicken Salad</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Greek Salad</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Kale Salad</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Water</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Lemonade</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Ice Tea</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Coffee</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<tr>
+	    		<td>Apple Juice</td>
+	    		<td></td>
+	    		<td>&#10008;</td>
+	    		<td>&#10008;</td>
+	    		<td></td>
+	    		<td></td>		
+	    		<td></td>
+	    	</tr>
+	    	<!--End Foods-->
+	    </table>
+	    <!--End Nutrition Table-->
+	</section>
+	
+	
+	<!--Footer-->
+	<div id="footer">
+	<!-- Social Media-->
+	<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
+	<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+	<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+	<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
+	<!--Legal Notice and Copyright Issue-->
+	<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+	<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us | Breadible</title>
+	<link rel="stylesheet" href="main.css"> <!--CSS file for styling-->
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'><!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'><!--Font-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--sets view for mobile-->
+	<script type="text/javascript" src="main.js"></script>
+<!--MAP-->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdvjy6jvjU17eLNRNWk-5DioQfxdUw6Hg&callback=initMap"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+<!--CREATING DIRECTIONS-->
+<script src="googlemap.js"></script>
+<!--END MAP-->
+	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)"><!--Responsive css for tablet-->
+	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)"><!--Responsive css for phone-->
+</head>	
+<body>
+	
+	
+	<!--Header that contains the logo-->
+	<header>
+		<!--Small decorative div at the top that displays the phone number-->
+		<div id="phonenumberdiv"><p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
+			
+		<b id=phonenumber2>555-555-5555</b></p>
+		
+		<!--Logo-->
+		<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+		</div>
+	</header>
+	
+	
+	
+	
+	<!--Navigation-->
+	<nav id="navigation">
+		
+		<!--Dropdown menu (hidden in desktop)-->
+			<img src="images/menuicon.png" id="icon" onclick="drop()" height ="7%" width ="7%"></img>
+		<ul id="menudropdown">
+			<li><a href="index.html">Home</a></li><!--Active tag shows what page you are on-->
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li class="active"><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+		
+		<!--Regular desktop menu (hidden in mobile)-->
+		<ul id="navi">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li class="active"><a href="contactus.html">Contact Us</a></li>
+			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+	</nav>
+	
+	
+	
+	
+	
+	<!--PANEL FOR INPUTING DIRECTIONS OVERLAYED ONTO THE MAP-->
+	   <div id="floating-panel">
+      <strong>Directions:</strong>
+      <input type="text" id="start" placeholder="Enter Your Address Here">
+      <input type="submit" value="Submit">
+      <br>
+    </div>
+	<div id="map"></div>
+	
+	
+	
+	
+	 
+	 <!--FORM UNDER MAP FOR CONTACT-->
+	 <div id="contact-form">
+	 	
+	 	<!--BREADIBLE INFORMATION-->
+	 	<h1>Contact Us:</h1>
+	 	<h2>Open 7am to 9pm Everyday</h2> <br>
+	  	<p id="contactem">
+	  	Email: info@breadible.tk<br>
+	  	Phone: 555-555-5555<br>
+	  	Address: 3630 Washington Rd, Sayreville NJ
+	  	</p>
+	  
+	  <!--INPUTS FOR FORM-->
+	 <form id="frm">
+	   <input type="text" id="Name" placeholder="Name" >
+	   <input type="text" id="Email" placeholder="Email" >
+	   <br>
+	   <input type="text" id="Phone" placeholder="Phone Number" >
+	   <br>
+	   <textarea id="Msg" name=comments class="reviewinput" placeholder="Write an optional comment here."></textarea>
+	   <input type="button" value="Submit" id="contact-sub" onClick="contactsubmit()">
+	  </form>
+	  </div>
+	  
+<!--WHERE DIRECTIONS ARE DISPLAYED-->
+<div id="right-panel"></div>
+
+<!--POPUP MESSAGE AFTER CLICKING SUBMIT ON CONTACT FORM-->
+<div id="contactpopup">
+<div id="reservationmessage">
+<h1 id="resvar">Javascript Input</h1>
+				<div><p onclick='endpopup("contactpopup")'>Done</p></div>
+</div>
+</div>
+	
+	<!--Footer-->
+	<div id="footer">
+	<!-- Social Media-->
+	<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
+	<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+	<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+	<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
+	<!--Legal Notice and Copyright Issue-->
+	<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+	<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
+</div>
+
+</body>
+</html>
