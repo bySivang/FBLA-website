@@ -44,9 +44,9 @@ body {
 }
 
 #logo {
-	height: 150px;
+	height: 400px;
 	display: block;
-	margin: 0 auto;
+	margin: -60px auto;
 }
 
 #navigation {
