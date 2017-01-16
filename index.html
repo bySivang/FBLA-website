@@ -6,10 +6,11 @@
 	<meta name="keywords" content="Breadible,Gluten-Free,Gluten,Healthy,Bakery,Restaurant,Sayreville,Bread">
 	<meta name="description" content="Gluten-Free Restaurant in Sayreville, New Jersey. Serves Salads, Sandwhiches, Pastries, Pastas, and Soups.">
 	<meta name="author" content=“Sivang Modi and Kunal Kadakia“>
-	<title>Kidz Kingdom: Family Entertainment Center</title>
+	<title>Boundless Entertainment</title>
 	<link rel="stylesheet" href="main.css"><!--Stylesheet-->
-	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'><!--font-->
-	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'><!--font-->
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type='text/css'><!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'><!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'><!--Font-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sets view for mobile-->
 	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)">
 	<!--Responsive css for tablet-->
@@ -51,43 +52,45 @@
 		<img src="images/menuicon.png" id="icon" onclick="drop()" height="7%" width="7%"></img>
 		<ul id="menudropdown"><!--Mobile Icon-->
 			<li class="active"><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Menu</a></li>
-			<li><a href="nutrition.html">Nutrition</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href=“hours.html">Hours & Location</a></li>
+			<li><a href="nutrition.html">Parties</a></li>
+			<li><a href="reviews.html">Fun & Games</a></li>
+			<li><a href="reviews.html">Snackbar</a></li>
+			<li><a href="reviews.html">Prices</a></li>
 			<li><a href="contactus.html">Contact Us</a></li>
-			<li><a href="mybreadibility.html">My Breadibility</a></li>
+			<li><a href="mybreadibility.html">My Account</a></li>
 		</ul>
 		
 		<!--Desktop navigation (Hidden in mobile view)-->
 		<ul id="navi">
 			<li class="active"><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Insurance Waivers</a></li>
-			<li><a href="nutrition.html">Activities</a></li>
-			<li><a href="reviews.html">Hours and Prices</a></li>
+			<li><a href=“hours.html">Hours & Location</a></li>
+			<li><a href="nutrition.html">Parties</a></li>
+			<li><a href="reviews.html">Fun & Games</a></li>
+			<li><a href="reviews.html">Snackbar</a></li>
+			<li><a href="reviews.html">Prices</a></li>
 			<li><a href="contactus.html">Contact Us</a></li>
-			<li><a href="mybreadibility.html">Parties</a></li>
-			<li><a href="mybreadibility.html">Parties</a></li>
-			<li><a href="mybreadibility.html">Parties</a></li>
-			<li><a href="mybreadibility.html">Parties</a></li>
+			<li><a href="mybreadibility.html">My Account</a></li>
 		</ul>
 	</nav>
 	
 	<!--Banner Image-->
 	<div id=container>
-		<div class=imageslider id=imageslider1 style="background-image:url('images/Handmade Brioches.jpg')">
+	<video autoplay width="100%" loop>
+	<source src="images/desert1.mp4"autoplay  type="video/mp4">
 			<div id="homeinfo">
-				<!--Paragraph overlayed onto image right side-->
+				<!--Paragraph overlayed onto video right side-->
 				<p>Crunchy, Crispy, Baked Goodness</p>
 				<br>
 			</div>
 			
-			<!--Paragraph overlayed onto image left side-->
+			<!--Paragraph overlayed onto video left side-->
 			<div id="homeinfo2">
 				<p>Open from 7:00 AM to 9:00 PM Everyday!</p>
 			</div>
-		
+			
 			<!--Reservation banner on bottom-->
-			<div id=reservation>
+			<div id=reservation z-index="1">
 				<form id="frm">
 					<!--Date-->
 					<input id="datepicker" type=button name=Date value="Date">
@@ -133,7 +136,8 @@
 					<input id=submitbutton type=button value="Reserve" onclick="popup(); return false">
 				</form><!--End form-->
 			</div><!--End reservation form-->
-		</div><!--End banner image-->
+			</video>
+	      <!--End banner image-->
 	</div><!--End container-->
 
 	
@@ -178,10 +182,10 @@
 	<div id="triplesectionwrapper">
 		<!--Informational Section Chef-->
 		<section class="triplesection">
-			<img src="images/chef.jpg">
+			<img src="images/parties.jpg">
 			<article>
-				<h1>Welcome Our New Chef!</h1>
-				<p>Chef Adam Jones is one of the top pastry and restaurant chefs in the area with experience in gluten and wheat-free foods. <a href="reviews.html"> Come grab a bite made by one of the best!</a></p>
+				<h1>PARTIES!</h1>
+				<p>When you want to throw the most fun and memorable party ever, the BEST parties happen at NAME! Choose from our many options of perfectly planned parties to find the one that fits the needs of your guests. <a href="reviews.html"> Click here for more information about parties!</a></p>
 			</article>
 		</section>
 		<!--End Informational Section Chef-->
@@ -189,10 +193,10 @@
 
 		<!--Informational Section Gluten-Free-->
 		<section class="triplesection">
-			<img src="images/nutrition.jpg">
+			<img src="images/fun.jpg">
 			<article>
-				<h1>Gluten-Free Products!</h1>
-				<p>We pride ourselves in creating delicious pastries and breads while also staying gluten-free. Learn more about our personal statement <a href="nutrition.html">here.</a></p>
+				<h1>FUN!</h1>
+				<p>Take one step inside NAME and you’ll experience a whole new level of WOW! Explore our many rides, attractions, boardwalk games and one of NJ’s largest arcades. There’s guaranteed fun for the whole family! Learn more about how much fun you can have <a href="nutrition.html">here.</a></p>
 			</article>
 		</section>
 		<!--End Informational Section Gluten-Free-->
@@ -200,12 +204,10 @@
 
 		<!--Informational Section Celiac Disease-->
 		<section class="triplesection">
-			<img src="images/bakesale.png" id="bakesale">
+			<img src="images/events.jpg” id="bakesale">
 			<article>
-				<h1>Participate in our Bake Sale!</h1>
-				<p>All through January, Breadible will be baking cakes and pastries to benefit the Celiac Disease Foundation. Learn more about living gluten-free here:
-					<br><a href=https://celiac.org/ target="_blank" id="sectionlink">Celiac Disease Foundation</a></p>
-			</article>
+				<h1>EVENTS!</h1>
+				<p>NAME is your one stop shop for all events. Check out all of our amazing spaces for Concerts, Meet & Greets, Expos, Corporate Events, Social Events and anything else you can dream up! Learn more about our events <a href="nutrition.html">here.</a></p>			</article>
 		</section>
 		<!--End Information Section Celiac Disease-->
 	</div>

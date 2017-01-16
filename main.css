@@ -5,6 +5,8 @@
 Dark Brown:#4A221A
 Orange:#BE5D16
 Tan:#DEB887*/
+Light Blue: #7ad5f9 
+Light Pink: #ffdbf6
 
 * { /*Sets all margins and paddings to 0 */
 	margin: 0;
@@ -14,8 +16,8 @@ Tan:#DEB887*/
 /* General Styles & Index*/
 body {
 	position: relative;
-	background-color: #DEB887;
-	background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
+	background-color: #15B7ED;
+	background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
 	height: 100%;
 	width: 100%;
 }
@@ -32,14 +34,14 @@ body {
 #phonenumberdiv {
 	height: 200px;
 	width: 100%;
-	background-color: #4A221A;
-	color: #BE5D16;
-	background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+	background-color: #15B7ED;
+	color: #FFFFFF;
+	background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
 }
 
 #phonenumberdiv p {
 	padding: 10px 10px;
-	font-family: 'Sansita One', cursive;
+	font-family: 'Contrail One', cursive;
 	text-align: right;
 }
 
@@ -47,15 +49,17 @@ body {
 	height: 150px;
 	display: block;
 	margin: 0 auto;
+	max-width: 100%;
+	
 }
 
 #navigation {
-	font-family: 'Sansita One', cursive;
-	font-size: 1em;
+	font-family: 'Bangers', cursive;
+	font-size: 1.5em;
 	text-align: center;
-	background-color: #4A221A;
-	color: #BE5D16;
-	background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+	background-color: #15B7ED;
+	color: #FFFFFF;
+	background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
 	
 }
 
@@ -74,7 +78,7 @@ nav a:hover {
 }
 
 nav a {
-	color: #B25D16;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
@@ -96,26 +100,26 @@ nav a {
 .triplesection {
 	width: 33%;
 	float: left;
-	font-family: 'Medula One', cursive;
+	font-family: 'Londrina Solid', cursive;
 	margin-bottom: 10px;
 }
 
 .triplesectionmobile {
 	width: 33%;
 	float: left;
-	font-family: 'Medula One', cursive;
+	font-family: 'Londrina Solid', cursive;
 	margin-bottom: 10px;
 }
 
 .triplesection img {
-	width: 200px;
-	height: 200px;
-	max-width: 200px;
-	max-height: 200px;
+	width: 300px;
+	height: 250px;
+	max-width: 300px;
+	max-height: 250px;
 	border-radius: 25%;
 	border-width: 5px;
 	border-style: solid;
-	border-color: #BE5D16;
+	border-color: #FFFFFF;
 	margin-bottom: 10px;
 	display: block;
 	margin: auto;
@@ -126,39 +130,40 @@ nav a {
 }
 
 .triplesection h1 {
-	font-size: 2em;
+	font-size: 2.5em;
+	color: #FFFFFF;
 	text-align: center;
 }
 
 .triplesection p {
-	width: 90%;
-	font-size: 1.3em;
+	width: 85%;
+	font-size: 1.2em;
 	text-align: center;
 	margin: auto;
 }
 
 #sectionlink {
-	color: #BE5D16;
+	color: #FFFFFF;
 }
 
 .active {
-	text-decoration: underline;
+	border .1px #119ddd;
+    	background: #119ddd;
 }
 
 #footer {
-	font-family: 'Medula One', cursive;
-	width: 100%;
+	font-family: 'Contrail One', cursive;	width: 100%;
 	height: 100px;
-	background-color: #4A221A;
-	color: #BE5D16;
+	background-color: #15B7ED;
+	color: #FFFFFF;
 	clear: both;
-	background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+	background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
 }
 
 #copyright {
-	padding-top: 30px;
-	padding-left: 20px;
-	font-size: 1.5em;
+	padding-top: 50px;
+	padding-left: 10px;
+	font-size: 1em;
 }
 
 #lawyerstuff {
@@ -169,11 +174,11 @@ nav a {
 }
 
 .triplesection a {
-	color: #BE5D16;
+	color: #FFFFFF;
 }
 
 #footer a {
-	color: #BE5D16;
+	color: #FFFFFF;
 }
 
 .socialmedia {
@@ -188,7 +193,7 @@ nav a {
 }
 
 #homeinfo {
-	font-family: 'Sansita One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 2em;
 	color: white;
 	opacity: .7;
@@ -202,7 +207,7 @@ nav a {
 }
 
 #homeinfo2 {
-	font-family: 'Sansita One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.7em;
 	color: white;
 	opacity: .7;
@@ -220,7 +225,7 @@ nav a {
 	bottom: 0;
 	height: 20%;
 	width: 100%;
-	background-color: #4A221A;
+	background-color: #15B7ED;
 	opacity: .8;
 	
 }
@@ -232,7 +237,7 @@ nav a {
 
 #submitbutton:hover {
 	cursor: pointer;
-	border: 2px #DEB887 solid;
+	border: 2px #15B7ED solid;
 }
 
 #submitbutton {
@@ -240,7 +245,7 @@ nav a {
 	font-size: 1.3em;
 	border: none;
 	color: white;
-	background-color: #BE5D16;
+	background-color: #FFFFFF;
 	height: 40px;
 	width: 120px;
 }
@@ -286,16 +291,16 @@ input {
 	border: none;
 	width: 65px;
 	color: white;
-	background-color: #4A221A;
-	border: 2px #BE5D16 solid;
+	background-color: #15B7ED;
+	border: 2px #FFFFFF solid;
 	padding: 5px;
 }
 
 select {
 	border: none;
 	color: white;
-	background-color: #4A221A;
-	border: 2px #BE5D16 solid;
+	background-color: #15B7ED;
+	border: 2px #FFFFFF solid;
 	padding: 5px;
 }
 
@@ -305,11 +310,11 @@ select {
 	width: 100%;
 	text-align: center;
 	font-size: 1em;
-	color: #BE5D16;
+	color: #FFFFFF;
 	font-family: 'Medula One', cursive;
 	letter-spacing: 2px;
 	padding-top: 10px;
-	background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+	background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
 }
 
 .responsivediv {
@@ -335,17 +340,17 @@ select {
 
 #privacypolicy h1 {
 	margin-top: 20px;
-	font-family: 'Sansita One', cursive;
+	font-family: ‘Bangers’, cursive;
 	text-align: left;
 	font-size: 2em;
-	color: #BE5D16;
+	color: #FFFFFF;
 }
 
 #privacypolicy h2 {
-	font-family: 'Sansita One', cursive;
+	font-family: ‘Bangers’, cursive;
 	text-align: left;
 	font-size: 1.5em;
-	color: #BE5D16;
+	color: #FFFFFF;
 	margin: 10px 0px;
 }
 
@@ -366,7 +371,7 @@ select {
 
 #privacypolicy a {
 	text-decoration: none;
-	color: #BE5D16;
+	color: #FFFFFF;
 }
 
 
@@ -395,7 +400,7 @@ select {
 
 .triplesection h2 {
 	font-size: 2em;
-	color: #BE5D16;
+	color: #FFFFFF;
 }
 
 #top3reviews > h1 {
@@ -403,14 +408,14 @@ select {
 	font-family: 'Anton', sans-serif;
 	text-align: center;
 	font-size: 2em;
-	color: #BE5D16;
+	color: #FFFFFF;
 }
 
 #top3reviews > h2 {
 	font-family: 'Anton', sans-serif;
 	text-align: center;
 	font-size: 1.2em;
-	color: #BE5D16;
+	color: #FFFFFF;
 	margin: 10px 0px;
 }
 
@@ -435,7 +440,7 @@ select {
 }
 
 #menus {
-	color: #BE5D16;
+	color: #FFFFFF;
 	padding: 5px 10px;
 	font-family: 'Medula One', cursive;
 	font-size: 1.7em;
@@ -450,11 +455,11 @@ select {
 
 #menus a {
 	text-decoration: none;
-	color: #BE5D16;
+	color: #FFFFFF;
 }
 
 #menus a:hover {
-	color: #4A221A;
+	color: #15B7ED;
 }
 
 #menu_soups {
@@ -494,10 +499,10 @@ select {
 	width: 2%;
 	padding-left: 5%;
 	text-align: left;
-	color: #BE5D16;
+	color: #FFFFFF;
 	font-family: 'Medula One', cursive;
 	font-size: 1.7em;
-	border-left: solid #BE5D16 2px;
+	border-left: solid #FFFFFF 2px;
 }
 
 .food_price {
@@ -527,15 +532,15 @@ select {
 	text-align: center;
 	font-family: 'Medula One', cursive;
 	font-size: 1.5em;
-	color: #BE5D16;
-	border-bottom: solid #BE5D16 2px;
-	border-top: solid #BE5D16 2px;
+	color: #FFFFFF;
+	border-bottom: solid #FFFFFF 2px;
+	border-top: solid #FFFFFF 2px;
 	margin-bottom: 10px;
 	padding: 10px 0px;
 }
 
 #overview a {
-	color: #BE5D16;
+	color: #FFFFFF;
 }
 
 
@@ -615,8 +620,8 @@ select {
 	width: 40%;
 	margin: auto;
 	text-align: center;
-	background-color: #4A221A;
-	color: #BE5D16;
+	background-color: #15B7ED;
+	color: #FFFFFF;
 	font-family: 'Medula One', cursive;
 	padding: 20px;
 }
@@ -633,8 +638,8 @@ select {
 	width: 40%;
 	margin: auto;
 	text-align: center;
-	background-color: #4A221A;
-	color: #BE5D16;
+	background-color: #15B7ED;
+	color: #FFFFFF;
 	font-family: 'Medula One', cursive;
 	padding:0px 20px 20px;
 }
@@ -674,7 +679,13 @@ select {
 }
 
 
+/* Hours*/
 
+#hourssch {
+	font-size: 16px;
+	font-family: 'Contrail One', cursive;
+	color: #FFFFFF;
+}
 
 
 /* Leave a Review*/
@@ -683,7 +694,7 @@ select {
 }
 
 .border_bottom td {
-	border-bottom: 2px #4A221A solid;
+	border-bottom: 2px #15B7ED solid;
 }
 
 .padding_top td {
@@ -699,7 +710,7 @@ label {
 }
 
 input[type="radio"] + label:before {
-	border: 2px solid #4A221A;
+	border: 2px solid #15B7ED;
 	content: "\00a0";
 	display: inline-block;
 	font: 16px/1em sans-serif;
@@ -711,8 +722,8 @@ input[type="radio"] + label:before {
 }
 
 input[type="radio"]:checked + label:before {
-	background: #4A221A;
-	color: #BE5D16;
+	background: #15B7ED;
+	color: #FFFFFF;
 	content: "\2714";
 	text-align: center;
 }
@@ -723,7 +734,7 @@ input[type="radio"]:checked + label:before {
 
 th {
 	font-weight: normal;
-	color: #4A221A;
+	color: #15B7ED;
 	padding-right: 10px;
 }
 
@@ -737,8 +748,8 @@ th {
 	width: 150px;
 	border: none;
 	color: white;
-	background-color: #4A221A;
-	border: 2px #BE5D16 solid;
+	background-color: #15B7ED;
+	border: 2px #ffdbf6 solid;
 	padding: 5px;
 }
 
@@ -755,15 +766,15 @@ th {
 
 /*Maps*/
 .adp-text {
-	background-color: #4A221A;
-	color: #BE5D16;
+	background-color: #15B7ED;
+	color: #FFFFFF;
 	font-family: 'Medula One', cursive;
 	font-size: 1.5em;
 }
 
 .adp-placemark {
-	background-color: #4A221A !important;
-	border: 2px #BE5D16 solid !important;
+	background-color: #15B7ED !important;
+	border: 2px #FFFFFF solid !important;
 }
 
 #map {
@@ -840,7 +851,7 @@ th {
 
 /* Contact Us Form*/
 #contact-form {
-	display: inline-block;
+	display: center;
 	width: 45%;
 	margin: auto;
 	padding-left: 10px;
@@ -850,15 +861,15 @@ th {
 }
 
 #contact-form h1 {
-	font-family: 'Medula One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.5em;
-	color: #4A221A;
+	color: #FFFFFF;
 }
 
 #contact-form h2 {
-	font-family: 'Medula One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
-	color: #4A221A;
+	color: #FFFFFF;
 }
 
 #contact-form input {
@@ -874,8 +885,9 @@ th {
 }
 
 #contactem {
-	font-size: 12px;
-	color: #4A221A;
+	font-size: 16px;
+	font-family: 'Contrail One', cursive;
+	color: #FFFFFF;
 }
 
 #Msg {
@@ -950,7 +962,7 @@ textarea {
 }
 
 #secondnav a {
-	color: #BE5D16;
+	color: #ffdbf6;
 	text-decoration: none;
 }
 
@@ -972,7 +984,7 @@ textarea {
 	font-family: 'Medula One', cursive;
 	letter-spacing: 2px;
 	font-size: 2em;
-	color: #4A221A;
+	color: #15B7ED;
 }
 
 #nutritionbody article p {
@@ -982,18 +994,18 @@ textarea {
 	opacity: .8;
 	font-family: 'Medula One', cursive;
 	font-size: 1.3em;
-	color: #4A221A;
-	border-bottom: 2px #4A221A solid;
+	color: #15B7ED;
+	border-bottom: 2px #15B7ED solid;
 }
 
 #nutritiontable {
 	width: 100%;
-	border: 2px #4A221A solid;
+	border: 2px #15B7ED solid;
 	opacity: .8;
 	font-family: 'Medula One', cursive;
 	font-size: 1.3em;
-	color: #4A221A;
-	border-bottom: 2px #4A221A solid;
+	color: #15B7ED;
+	border-bottom: 2px #15B7ED solid;
 }
 
 #nutritiontable td {
@@ -1011,7 +1023,7 @@ textarea {
 
 #nutritionlink {
 	display: none;
-	color: #BE5D16;
+	color: #ffdbf6;
 }
 
 
@@ -1028,7 +1040,7 @@ textarea {
 	font-family: 'Medula One', cursive;
 	font-size: 2.5em;
 	text-decoration: underline;
-	color: #BE5D16;
+	color: #ffdbf6;
 }
 
 #Breadibility-p {
@@ -1050,16 +1062,16 @@ textarea {
 	margin-bottom: 20px;
 	font-family: 'Medula One', cursive;
 	padding: 7px;
-	background-color: #4A221A;
+	background-color: #15B7ED;
 }
 
 .login a {
-	color: #BE5D16;
+	color: #ffdbf6;
 }
 
 .login h1 {
 	font-size: 1.4em;
-	color: #BE5D16;
+	color: #ffdbf6;
 	letter-spacing:1px;
 }
 
@@ -1069,7 +1081,7 @@ textarea {
 }
 
 .login p {
-	color: #BE5D16;
+	color: #ffdbf6;
 }
 
 .faq {
@@ -1079,7 +1091,7 @@ textarea {
 	text-align: center;
 }
 #here{
-	color: #BE5D16;
+	color: #ffdbf6;
 }
 .faq h1{
 	font-size:1em;
@@ -1092,8 +1104,8 @@ textarea {
 	cursor: pointer;
 	text-decoration: underline;
 	font-size: .8em;
-	color: #BE5D16;
-	background-color: #4A221A;
+	color: #ffdbf6;
+	background-color: #15B7ED;
 	padding-bottom: 2px;
 }
 
@@ -1122,7 +1134,7 @@ textarea {
 }
 
 #signup a {
-	color: #BE5D16;
+	color: #ffdbf6;
 }
 
 #rewardscard {
@@ -1170,8 +1182,8 @@ textarea {
 	width: 40%;
 	margin: auto;
 	text-align: center;
-	background-color: #4A221A;
-	color: #BE5D16;
+	background-color: #15B7ED;
+	color: #ffdbf6;
 	font-family: 'Medula One', cursive;
 	padding:0px 20px 20px;
 }
@@ -1210,12 +1222,12 @@ textarea {
 
 /*Redeem Offers Page*/
 #redeemtable {
-	border: 2px #4A221A solid;
+	border: 2px #15B7ED solid;
 	opacity: .8;
 	font-family: 'Medula One', cursive;
 	font-size: 1.3em;
-	color: #4A221A;
-	border-bottom: 2px #4A221A solid;
+	color: #15B7ED;
+	border-bottom: 2px #15B7ED solid;
 }
 
 #redeemtable td {
@@ -1265,7 +1277,7 @@ textarea {
 
 .heador {
 	margin-top:10px;
-	color:#4A221A;
+	color:#FFFFFF;
 }
 
 .blockdisplay {
@@ -1273,7 +1285,7 @@ textarea {
 	font-family: 'Medula One', cursive;
 	margin-bottom: 30px;
 	text-align:center;
-	color:#4A221A;
+	color:#FFFFFF;
 }
 
 #accountcard {
@@ -1306,11 +1318,11 @@ textarea {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   overflow: hidden;
-  color:#BE5D16;
+  color:#ffdbf6;
   opacity:.9;
   padding:10px;
   border-radius:10px;
-  box-shadow:0px -2px 0px 2px #BE5D16;
+  box-shadow:0px -2px 0px 2px #ffdbf6;
 }
 .recipe:before {
   content: "";
@@ -1319,7 +1331,7 @@ textarea {
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #BE5D16 !important;
+  background: #ffdbf6 !important;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
