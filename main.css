@@ -46,11 +46,15 @@ body {
 }
 
 #logo {
-	height: 150px;
+	height: 400px;
 	display: block;
+<<<<<<< HEAD
 	margin: 0 auto;
 	max-width: 100%;
 	
+=======
+	margin: -60px auto;
+>>>>>>> origin/master
 }
 
 #navigation {
