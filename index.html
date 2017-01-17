@@ -78,20 +78,10 @@
 	<div id=container>
 	<video autoplay width="100%" loop>
 	<source src="images/desert1.mp4"autoplay  type="video/mp4">
-			<div id="homeinfo">
-				<!--Paragraph overlayed onto video right side-->
-				<p>Crunchy, Crispy, Baked Goodness</p>
-				<br>
-			</div>
-			
-			<!--Paragraph overlayed onto video left side-->
-			<div id="homeinfo2">
-				<p>Open from 7:00 AM to 9:00 PM Everyday!</p>
-			</div>
-			
-			<!--Reservation banner on bottom-->
-			<div id=reservation z-index="1">
-				<form id="frm">
+	</video>
+	
+		<div id="homeinfo">
+		<form id="frm">
 					<!--Date-->
 					<input id="datepicker" type=button name=Date value="Date">
 					<!--End Date-->
@@ -134,9 +124,22 @@
 					
 					<!--Submit button-->
 					<input id=submitbutton type=button value="Reserve" onclick="popup(); return false">
-				</form><!--End form-->
-			</div><!--End reservation form-->
-			</video>
+				</form>
+				<!--Paragraph overlayed onto video right side
+				<p>Crunchy, Crispy, Baked Goodness</p>
+				<br> --> 
+			</div>
+			
+			<!--Paragraph overlayed onto video left side
+			<div id="homeinfo2">
+				<p>Open from 7:00 AM to 9:00 PM Everyday!</p>
+			</div>
+			-->
+			<!--Reservation banner on bottom-->
+			<!--<div id=reservation >
+				<!--End form
+			</div>--><!--End reservation form-->
+			
 	      <!--End banner image-->
 	</div><!--End container-->
 

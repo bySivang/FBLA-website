@@ -197,17 +197,15 @@ nav a {
 }
 
 #homeinfo {
-	font-family: 'Contrail One', cursive;
-	font-size: 2em;
+	
 	color: white;
-	opacity: .7;
-	letter-spacing: 5px;
+	opacity: .8;
 	position: absolute;
 	top: 20%;
-	right: 0px;
 	height: 40%;
-	width: 40%;
+	width: 100%;
 	text-align: center;
+	bottom:0;
 }
 
 #homeinfo2 {
@@ -245,10 +243,10 @@ nav a {
 }
 
 #submitbutton {
-	font-family: 'Medula One', cursive;
+	font-family: 'Bangers', cursive;
 	font-size: 1.3em;
-	border: none;
-	color: white;
+	border: 2px #119ddd solid;
+	color: #119ddd;
 	background-color: #FFFFFF;
 	height: 40px;
 	width: 120px;
