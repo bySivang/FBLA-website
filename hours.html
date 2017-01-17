@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
 	<meta charset="UTF-8">
-	<title>Contact Us | Breadible</title>
+	<title>Contact Us | Fun Without The Sun</title>
 	<link rel="stylesheet" href="main.css"> <!--CSS file for styling-->
 	<link href='https://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'><!--Font-->
 	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type='text/css'><!--Font-->
@@ -23,7 +23,7 @@
 	<!--Header that contains the logo-->
 	<header>
 		<!--Small decorative div at the top that displays the phone number-->
-		<div id="phonenumberdiv"><p>Call us at <b><a id=phonenumber href="tel:7320000000”>555-555-5555</a></b>
+		<div id="phonenumberdiv"><p>Call us at 732-525-5252<b><a id=phonenumber href="tel:7320000000”>555-555-5555</a></b>
 			
 		<b id=phonenumber2>555-555-5555</b></p>
 		
@@ -32,7 +32,8 @@
 		</div>
 	</header>
 	
-
+	
+	
 	
 	<!--Navigation-->
 	<nav id="navigation">
@@ -42,7 +43,7 @@
 		<ul id="menudropdown">
 			<li><a href="index.html">Home</a></li><!--Active tag shows what page you are on-->
 			<li><a href="index.html">Home</a></li>
-			<li><a href=“hours.html">Hours & Location</a></li>
+			<li class=“active”><a href="hours.html">Hours & Location</a></li>
 			<li><a href="nutrition.html">Parties</a></li>
 			<li><a href="reviews.html">Fun & Games</a></li>
 			<li><a href="reviews.html">Snackbar</a></li>
@@ -53,8 +54,8 @@
 		
 		<!--Regular desktop menu (hidden in mobile)-->
 		<ul id="navi">
-			<li clas><a href="index.html">Home</a></li>
-			<li="active"><a href=“hours.html">Hours & Location</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li class=“active”><a href="hours.html">Hours & Location</a></li>
 			<li><a href="nutrition.html">Parties</a></li>
 			<li><a href="reviews.html">Fun & Games</a></li>
 			<li><a href="reviews.html">Snackbar</a></li>
@@ -63,21 +64,40 @@
 			<li><a href="mybreadibility.html">My Account</a></li>
 		</ul>
 	</nav>
+	
+
+	<!--PANEL FOR INPUTING DIRECTIONS OVERLAYED ONTO THE MAP-->
+	   <div id="floating-panel">
+      <strong>Directions:</strong>
+      <input type="text" id="start" placeholder="Enter Your Address Here">
+      <input type="submit" value="Submit">
+      <br>
+    </div>
+	<div id="map"></div>
+	
+	
+	
+	
+	 
+	 <!—HOURS UNDER LOC—>
+	 <div id="contact-form">
 	 	
 	 	<!--BREADIBLE INFORMATION-->
 	 	<h1>Hours:</h1>
-	 	<h2>Our hours vary depending on the school calendar.</h2> <br>
-	  	<p id=“hourssch”>
-	  	Monday-Friday: 3 PM - 10 PM
-	  	Saturday & Sunday: 10 AM - 12 AM
-	  	Hours will also vary depending on vacation days offered by the school.
-		<h3>Here’s our schedule on vacation days:<h3> <br>
-		Any day off of school: 10AM - 12 AM
-		Winter & Spring Break: 8AM - 2 AM	
-		Summer Vacation: 6 AM - 2 AM
+	 	<h2>Hours vary according to the school calendar.</h2> <br>
+	  	<p id="contactem">
+	  	Regular Hours:<br>
+		Monday-Thursday: 3 PM - 9 PM<br>
+		Friday: 3 PM - 11 PM<br>
+		Saturday: 10 AM - 11 PM<br>
+		Sunday: 10 AM - 9 PM<br>
+	  	Winter and Spring Vacation:<br>
+	  	8 AM - 11 PM<br>
+		Summer Vacation:
+		8 AM - 12 AM<br>
 	  	</p>
-
-
+	  
+</div>
 	
 	<!--Footer-->
 	<div id="footer">

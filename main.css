@@ -46,8 +46,10 @@ body {
 }
 
 #logo {
-	height: 400px;
+	height: 150px;
 	display: block;
+	margin: 0 auto;
+
 <<<<<<< HEAD
 	margin: 0 auto;
 	max-width: 100%;
@@ -130,7 +132,7 @@ nav a {
 }
 
 #bakesale {
-	border-width: 0px;
+	border-width: 5px;
 }
 
 .triplesection h1 {
@@ -284,7 +286,7 @@ form {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	font-family: 'Medula One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
 	opacity: 1;
 }
@@ -313,7 +315,7 @@ select {
 	text-align: center;
 	font-size: 1em;
 	color: #FFFFFF;
-	font-family: 'Medula One', cursive;
+	font-family: 'Contrail One', cursive;
 	letter-spacing: 2px;
 	padding-top: 10px;
 	background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
@@ -357,7 +359,7 @@ select {
 }
 
 #privacypolicy p {
-	font-family: 'Medula One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
 	margin-bottom: 10px;
 }
