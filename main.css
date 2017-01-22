@@ -326,8 +326,8 @@ nav a {
 	color: white;
 	opacity: .8;
 	position: absolute;
-	top: 20%;
-	height: 40%;
+	top: 29%;
+	height: 100%;
 	width: 100%;
 	text-align: center;
 	bottom:0;
@@ -348,12 +348,15 @@ nav a {
 }
 
 #reservation {
-	position: absolute;
-	bottom: 0;
-	height: 20%;
-	width: 100%;
-	background-color: #15B7ED;
+	color: white;
 	opacity: .8;
+	position: absolute;
+	top: 29%;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	bottom:0;
+	
 	
 }
 
