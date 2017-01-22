@@ -60,7 +60,7 @@ body {
 }
 
 #navigation {
-	font-family: 'Bangers', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.5em;
 	text-align: center;
 	background-color: #15B7ED;
@@ -569,8 +569,8 @@ select {
 #menus {
 	color: #FFFFFF;
 	padding: 5px 10px;
-	font-family: 'Medula One', cursive;
-	font-size: 1.7em;
+	font-family: 'Contrail One', cursive;
+	font-size: 1em;
 }
 
 #menu_overview {
@@ -607,7 +607,7 @@ select {
 
 #menu_pastries p {
 	text-align: center;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size: 1.2em;
 }
 
@@ -617,25 +617,22 @@ select {
 
 #overview {
 	font-size: 1.4em;
-	font-family: 'Medula One', sans-serif;
+	font-family: ‘Contrail One', cursive;
 	margin-bottom: 20px;
 }
 
 .food_header {
-	max-width: 300px;
-	width: 2%;
-	padding-left: 5%;
-	text-align: left;
+	max-width: 400px;
+	text-align: center;
 	color: #FFFFFF;
-	font-family: 'Medula One', cursive;
-	font-size: 1.7em;
-	border-left: solid #FFFFFF 2px;
+	font-family: ‘Hind’, sans-serif;  
+	font-size: 1em;
 }
 
 .food_price {
 	width: .5%;
 	text-align: center;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size: 1.5em;
 }
 
@@ -644,7 +641,7 @@ select {
 	width: 2%;
 	padding-left: 5%;
 	text-align: left;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size: 1.3em;
 	padding-bottom: 25px;
 }
@@ -654,10 +651,10 @@ select {
 }
 
 #borderdecoration {
-	max-width: 550px;
+	max-width: 600px;
 	margin: auto;
 	text-align: center;
-	font-family: 'Medula One', cursive;
+	font-family: 'Bangers', cursive;
 	font-size: 1.5em;
 	color: #FFFFFF;
 	border-bottom: solid #FFFFFF 2px;
@@ -749,7 +746,7 @@ select {
 	text-align: center;
 	background-color: #15B7ED;
 	color: #FFFFFF;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	padding: 20px;
 }
 
@@ -767,7 +764,7 @@ select {
 	text-align: center;
 	background-color: #15B7ED;
 	color: #FFFFFF;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	padding:0px 20px 20px;
 }
 
@@ -895,7 +892,7 @@ th {
 .adp-text {
 	background-color: #15B7ED;
 	color: #FFFFFF;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size: 1.5em;
 }
 
@@ -1108,7 +1105,7 @@ textarea {
 }
 
 #nutritionbody article h2 {
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	letter-spacing: 2px;
 	font-size: 2em;
 	color: #15B7ED;
@@ -1119,7 +1116,7 @@ textarea {
 	margin: 10px auto 0px;
 	padding: 0 50px 40px;
 	opacity: .8;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size: 1.3em;
 	color: #15B7ED;
 	border-bottom: 2px #15B7ED solid;
@@ -1129,7 +1126,7 @@ textarea {
 	width: 100%;
 	border: 2px #15B7ED solid;
 	opacity: .8;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size: 1.3em;
 	color: #15B7ED;
 	border-bottom: 2px #15B7ED solid;
@@ -1164,7 +1161,7 @@ textarea {
 	padding-top:10px;
 	margin: auto;
 	text-align: center;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size: 2.5em;
 	text-decoration: underline;
 	color: #ffdbf6;
@@ -1174,7 +1171,7 @@ textarea {
 	max-width: 550px;
 	margin: auto;
 	text-align: center;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size: 1.5em;
 }
 
@@ -1187,7 +1184,7 @@ textarea {
 	margin: auto;
 	margin-top: 25px;
 	margin-bottom: 20px;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	padding: 7px;
 	background-color: #15B7ED;
 }
@@ -1212,7 +1209,7 @@ textarea {
 }
 
 .faq {
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size: 2em;
 	display: block;
 	text-align: center;
@@ -1253,7 +1250,7 @@ textarea {
 }
 
 #signup {
-	font-family: "Medula One", cursive;
+	font-family: “Contrail One", cursive;
 	font-size: 1.2em;
 	display: block;
 	text-align: center;
@@ -1311,7 +1308,7 @@ textarea {
 	text-align: center;
 	background-color: #15B7ED;
 	color: #ffdbf6;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	padding:0px 20px 20px;
 }
 
@@ -1351,7 +1348,7 @@ textarea {
 #redeemtable {
 	border: 2px #15B7ED solid;
 	opacity: .8;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size: 1.3em;
 	color: #15B7ED;
 	border-bottom: 2px #15B7ED solid;
@@ -1373,7 +1370,7 @@ textarea {
 .heador{
 	width: 33%;
 	margin:auto;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	margin-bottom: 10px;
 }
 
@@ -1409,7 +1406,7 @@ textarea {
 
 .blockdisplay {
 	display:block;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	margin-bottom: 30px;
 	text-align:center;
 	color:#FFFFFF;
@@ -1417,7 +1414,7 @@ textarea {
 
 #accountcard {
 	display:block;
-	font-family: 'Medula One', cursive;
+	font-family: ‘Contrail One', cursive;
 	font-size:1.5em;
 	margin-bottom: 10px;
 	text-align:center;
@@ -1431,7 +1428,7 @@ textarea {
 
 /*Recipe Page*/
 .recipe {
-  font-family: 'Medula One', cursive;
+  font-family: ‘Contrail One', cursive;
   font-size: 1.3em;
   background:#4A221A;
   margin:10px;
