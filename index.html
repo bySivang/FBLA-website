@@ -27,10 +27,15 @@
 		$(function() {
 			$("#datepicker").datepicker();
 		});
+		
+		
+		
+		
+		
 	</script>
 </head>
 
-<body>
+<body onload="currentSlide(1);">
 
 	<header><!--Header that contains the logo-->
 		<!--Small decorative div at the top that displays the phone number-->
@@ -207,14 +212,47 @@
 
 		<!--Informational Section Celiac Disease-->
 		<section class="triplesection">
-			<img src="images/events.jpg” id="bakesale">
+			<img src="images/events.jpg" id="bakesale">
 			<article>
 				<h1>EVENTS!</h1>
 				<p>NAME is your one stop shop for all events. Check out all of our amazing spaces for Concerts, Meet & Greets, Expos, Corporate Events, Social Events and anything else you can dream up! Learn more about our events <a href="nutrition.html">here.</a></p>			</article>
 		</section>
 		<!--End Information Section Celiac Disease-->
 	</div>
+	<div id="onesectionwrapper">
+	<section class="onesection">
+	<img src="images/snackbarhome.png">
+	</section>		
+	</div>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/events.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
 
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/snackbarhome.png" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/fun.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
 
 	<!--Footer-->
 	<div id="footer">

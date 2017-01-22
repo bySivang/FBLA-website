@@ -4,19 +4,52 @@
 //Swap tables using inner HTML for menus
 var pmenu = "overview";
     function menuswap(nmenu) {
+      
         var menu = document.getElementById("menu_" + pmenu);
-        var tabbed = document.getElementById("nav_" + nmenu);
+       /* var tabbed = document.getElementById("nav_" + nmenu);
+         alert("hello01");
+
         tabbed.style.textDecoration="underline";
+         alert("hello12");*/
+
         menu.style.display = "none";
-        tabbed = document.getElementById("nav_" + pmenu);
+      //  tabbed = document.getElementById("nav_" + pmenu);
+       
         menu = document.getElementById("menu_" + nmenu);
+       
+
         menu.style.display = "block";
-        tabbed.style.textDecoration="none";
+       // tabbed.style.textDecoration="none";
         pmenu = nmenu;
         //have all tables invisible except the one being viewed
     }
     
-    
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
     
 
 //Create a dropdownmenu for mobile view and remove the normal menu if in mobile view
