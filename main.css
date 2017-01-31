@@ -16,7 +16,7 @@ Light Pink: #ffdbf6
 /* General Styles & Index*/
 body {
 	position: relative;
-	background-color: #FFFFFF;
+	background-color: black;
 	background-image: url(http://www.transparenttextures.com/patterns/asfalt.png);
 	height: 100%;
 	width: 100%;
@@ -32,7 +32,7 @@ body {
 }
 
 #phonenumberdiv {
-	height: 220px;
+	height: 200px;
 	width: 100%;
 	background-color: #15B7ED;
 	color: #FFFFFF;
@@ -45,6 +45,19 @@ body {
 	text-align: right;
 }
 
+#phonenumberdivbottom{
+	width: 100%;
+	min-height: 30px;
+	text-align: center
+	max-width: 1000px;
+	font-weight: 10000px;
+	background-color: #15B7ED;
+	background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
+	float: left;
+
+
+   
+}
 #logo {
 	height: 150px;
 	display: block;
@@ -171,7 +184,8 @@ nav a {
  text-align: center
  max-width: 1000px;
  font-weight: 10000px;
-  background-color: black;
+ background-color: black;
+
    
 }
 #slideshowwrapper{
@@ -180,7 +194,7 @@ nav a {
  text-align: center
  max-width: 1000px;
  font-weight: 10000px;
-  background-color: black;
+ background-color: black;
    
 }
 
@@ -189,6 +203,8 @@ nav a {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  border-style: solid;
+  border-color: white;
 }
 
 /* Next & previous buttons */
@@ -300,10 +316,9 @@ nav a {
 }
 
 #footer {
-	font-family: 'Contrail One', cursive;	width: 100%;
+	font-family: 'Contrail One', cursive;
 	width: 100%;
-	height: 100px;
-	
+	height: auto;
 	background-color: #15B7ED;
 	color: #FFFFFF;
 	clear: both;
@@ -311,9 +326,10 @@ nav a {
 }
 
 #copyright {
-	padding-top: 50px;
-	padding-left: 10px;
+	clear: both;
+	margin-top: 10px;
 	font-size: 1em;
+	text-align: center;
 }
 
 #lawyerstuff {
@@ -593,6 +609,16 @@ select {
 	font-family: 'Contrail One', cursive;
 	font-size: 1em;
 }
+/* Slideshow container */
+.slideshow-containersnackbar{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border-style: solid;
+  border-color: white;
+  float: right; s
+}
+
 
 #menu_overview {
 	margin: auto;
