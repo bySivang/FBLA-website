@@ -801,7 +801,7 @@ select {
 
 #menu_pastries p {
 	text-align: center;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
 }
 
@@ -811,7 +811,7 @@ select {
 
 #menu_snackbar p {
 	text-align: left;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
 }
 
@@ -821,7 +821,7 @@ select {
 
 #overview {
 	font-size: 1.4em;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	margin-bottom: 20px;
 }
 
@@ -836,7 +836,7 @@ select {
 .food_price {
 	width: .5%;
 	text-align: center;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.5em;
 	color: red;
 }
@@ -846,7 +846,7 @@ select {
 	width: 2%;
 	padding-left: 5%;
 	text-align: left;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.3em;
 	padding-bottom: 25px;
 	color: #15B7ED;
@@ -860,8 +860,8 @@ select {
 	max-width: 600px;
 	margin: auto;
 	text-align: center;
-	font-family: ‘Contrail One', cursive;
-	font-size: 1.5em;
+	font-family: 'Contrail One', cursive;
+	font-size: 1.3em;
 	color: #FFFFFF;
 	border-bottom: solid #FFFFFF 2px;
 	border-top: solid #FFFFFF 2px;
@@ -1410,6 +1410,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	text-align: center;
 	width: 95%;
 	margin: 10px auto;
+	font-family: 'Roboto', sans-serif;
 }
 
 #nutritionbody article {
