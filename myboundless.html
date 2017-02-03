@@ -3,60 +3,87 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>My Breadibility | Breadible</title>
-	ink rel="stylesheet" href="main.css"><!--Stylesheet-->
+	<meta name="keywords" content="Breadible,Gluten-Free,Gluten,Healthy,Bakery,Restaurant,Sayreville,Bread">
+	<meta name="description" content="Gluten-Free Restaurant in Sayreville, New Jersey. Serves Salads, Sandwhiches, Pastries, Pastas, and Soups.">
+	<meta name="author" content=“Sivang Modi and Kunal Kadakia“>
+	<title>Boundless Entertainment</title>
+	<link rel="stylesheet" href="main.css"><!--Stylesheet-->
 	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type='text/css'><!--Font-->
 	<link href='https://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'><!--Font-->
 	<link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'><!--Font-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sets view for mobile-->
-	<script src="main.js"></script>
-	<!-- Modernizr -->
 	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)">
-	<!--Responsive design for tablet-->
+	<!--Responsive css for tablet-->
 	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)">
-	<!--Responsive design for phone-->
+	<!--Responsive css for phone-->
+	<script type="text/javascript" src="main.js"></script><!--javascript-->
+	
+	<!--link jquery to use for reservation datepicker-->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script>
+		//Creates an id to give to html objects to allow date boxes to appear after clicking
+		$(function() {
+			$("#datepicker").datepicker();
+		});
+		
+		
+		
+		
+		
+	</script>
 </head>
 
-<body>
-	<!--Header that contains the logo-->
-	<header>
+<body onload="currentSlide(1);">
+
+
+	<header><!--Header that contains the logo-->
 		<!--Small decorative div at the top that displays the phone number-->
 		<div id="phonenumberdiv">
 			<p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
-
 				<b id=phonenumber2>555-555-5555</b></p>
-
 			<!--Logo-->
-			<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+			<a href="index.html"><img src="images/boundlesslogo.png" alt=“Boundless Entertainment Logo" title=“Boundless Entertainment:Family Entertainment Center“ id="logo"></a>
 		</div>
+	
 	</header>
+<div id="phonenumberdivbottom">
+</div>
 
-	<!--Navigation-->
+
+</div>
+<!--Navigation-->
 	<nav id="navigation">
-
+		
+		<!--Mobile navigation (Hidden in desktop mode)-->
 		<img src="images/menuicon.png" id="icon" onclick="drop()" height="7%" width="7%"></img>
-		<ul id="menudropdown">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Hours & Location</a></li>
-			<li><a href="nutrition.html">Parties</a></li>
-			<li><a href="reviews.html">Fun & Games</a></li>
-			<li><a href="reviews.html">Snackbar</a></li>
-			<li><a href="reviews.html">Prices</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-			<li class="active"><a href="mybreadibility.html">My Account</a></li>		</ul>
-
+		<ul id="menudropdown"><!--Mobile Icon-->
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="hours.html">HOURS & LOCATION</a></li>
+			<li><a href="parties.html">PARTIES</a></li>
+			<li><a href="funandgames.html">FUN & GAMES</a></li>
+			<li><a href="snackbar.html">SNACKBAR</a></li>
+			<li><a href="prices.html">PRICES</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+			<li class="active"><a href="myboundless.html">MY ACCOUNT</a></li>
+		</ul>
+		
+		<!--Desktop navigation (Hidden in mobile view)-->
 		<ul id="navi">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="hours.html">Hours & Location</a></li>
-			<li><a href="parties.html">Parties</a></li>
-			<li><a href="funandgames.html">Fun & Games</a></li>
-		    <li><a href="snackbar.html">Snackbar</a></li>
-			<li><a href="reviews.html">Prices</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-			<li class="active"><a href="mybreadibility.html">My Account</a></li>		</ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="hours.html">HOURS & LOCATION</a></li>
+			<li><a href="parties.html">PARTIES</a></li>
+			<li><a href="funandgames.html">FUN & GAMES</a></li>
+			<li><a href="snackbar.html">SNACKBAR</a></li>
+			<li><a href="prices.html">PRICES</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+			<li class="active"><a href="myboundless.html">MY ACCOUNT</a></li>
+		</ul>
 	</nav>
+
 	<!--Welcome & Description-->
-	<h1 id="Breadibility-h1">Welcome To My Breadibility</h1>
+	<h1 id="Breadibility-h1">Welcome To My Boundless!</h1>
 	<br>
 	<p id="Breadibility-p">Here we offer opportunities for you to earn dicounts, learn recipes, and even get free prizes!</p>
 	<!-- Login-->
