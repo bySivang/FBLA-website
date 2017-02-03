@@ -154,7 +154,7 @@ nav a {
 	float: left;
 	font-family: 'Contrail One', cursive;
 	margin-bottom: 10px;
-	
+	color: white;
 }
 .triplesection1 {
 	width: 33%;
@@ -223,9 +223,8 @@ nav a {
 
 .onesection {
 	width: 100%;
-	
 	float: center;
-	font-family: 'Londrina Solid', cursive;
+	font-family: 'Contrail One', cursive;
 	margin-bottom: 10px;
 }
 .onesection img {
@@ -567,7 +566,7 @@ select {
 
 #secondnav {
 	height: auto;
-	background-color: rgba(74, 34, 26, .9);
+	background-color: black;
 	width: 100%;
 	text-align: center;
 	font-size: 1em;
@@ -629,6 +628,7 @@ select {
 
 #privacyarticle {
 	width: 70%;
+	color: white;
 }
 
 #privacypolicy a {
@@ -690,7 +690,7 @@ select {
 /*Prices*/
 #price-form {
 	display: center;
-	width: 45%;
+	width: 80%;
 	margin: auto;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -802,7 +802,7 @@ select {
 
 #menu_pastries p {
 	text-align: center;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
 }
 
@@ -812,7 +812,7 @@ select {
 
 #menu_snackbar p {
 	text-align: left;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
 }
 
@@ -822,7 +822,7 @@ select {
 
 #overview {
 	font-size: 1.4em;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	margin-bottom: 20px;
 }
 
@@ -830,15 +830,16 @@ select {
 	max-width: 400px;
 	text-align: center;
 	color: #FFFFFF;
-	font-family: ‘Hind’, sans-serif;  
-	font-size: 1em;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
 }
 
 .food_price {
 	width: .5%;
 	text-align: center;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.5em;
+	color: red;
 }
 
 .food_description {
@@ -846,9 +847,10 @@ select {
 	width: 2%;
 	padding-left: 5%;
 	text-align: left;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.3em;
 	padding-bottom: 25px;
+	color: #15B7ED;
 }
 
 #menu_navigation {
@@ -859,13 +861,22 @@ select {
 	max-width: 600px;
 	margin: auto;
 	text-align: center;
-	font-family: 'Bangers', cursive;
-	font-size: 1.5em;
+	font-family: 'Contrail One', cursive;
+	font-size: 1.3em;
 	color: #FFFFFF;
 	border-bottom: solid #FFFFFF 2px;
 	border-top: solid #FFFFFF 2px;
 	margin-bottom: 10px;
 	padding: 10px 0px;
+}
+#borderdecoration1 {
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Contrail One', cursive;
+	font-size: 1.3em;
+	padding: 10px 0px;
+	color: #FFFFFF;
 }
 
 #overview a {
@@ -993,6 +1004,7 @@ select {
 
 #reviewform {
 	width: 95%;
+	color: white;
 	margin: auto;
 }
 
@@ -1363,7 +1375,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	width: 100%;
 	margin: auto;
 	text-align: center;
-	font-family: 'Bangers', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.5em;
 	color: blue;
 	margin-bottom: 10px;
@@ -1372,7 +1384,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 }
 #parties-form {
 	display: center;
-	width: 100%;
+	width: 70%;
 	margin: 0;
 	text-align: center;
 	font-family: 'Contrail One', cursive;
@@ -1408,6 +1420,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	text-align: center;
 	width: 95%;
 	margin: 10px auto;
+	
 }
 
 #nutritionbody article {
@@ -1732,7 +1745,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	font-size:1.5em;
 	margin-bottom: 10px;
 	text-align:center;
-	color:#4A221A;
+	color:#15B7ED;
 }
 
 
@@ -1744,7 +1757,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 .recipe {
   font-family: ‘Contrail One', cursive;
   font-size: 1.3em;
-  background:#4A221A;
+  background: #15B7ED;
   margin:10px;
   display: block;
   text-align:center;
