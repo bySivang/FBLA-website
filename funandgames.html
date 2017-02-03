@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)"><!--Responsive design for tablet-->
 	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)"><!--Responsive design for phone-->
 </head>	
+<body onload="currentSlide(1);">
 <body>
 	<!--Header that contains the logo-->
 	<header>
@@ -59,47 +60,139 @@
 	
 	
 	
-	<!--Secondary Navigation-->
-	<section id="secondnav">
-		<div class="responsivediv"><h1 class="active"><a href="#">Our Beliefs</a></h1></div>
-		<div class="responsivediv" style="border-left:solid 2px #BE5D16; border-right:solid 2px #BE5D16"><h1><a href="nutritionfacts.html">Nutritional Facts</a></h1></div>
-		<div class="responsivediv"><h1><a href="nutritionplate.html">Allergens and Diet</a></h1></div>
-	</section>
-	
+
 	
 	
 	
 	<!--Body Sections-->
-	<section id="nutritionbody">
-		
-		<!-- Background-->
-		<article><h2>OUR STORY</h2>
-			<p>When Richard Johnson, Breadible's founder, was diagnosed with celiac disease his health took a turn for the worse. He found himself unable to find the same nutritional value in foods while staying under his strict diet. Fortunately, being a chef, Mr. Johnson was able to fashion his own recipes to support his dietary guidelines. He created Breadible a year later to share those recipes with the world.</p>
-		</article>
-		
-		<!--Mission Statement-->
-		<article><h2>IMPROVING THE LIVES OF THOSE LIVING GLUTEN-FREE</h2>
-			<p>Breadible focuses and dedicates itself to serving the gluten-free community. Backed by over 10 years of experience we look to make living gluten-free a healthier form of living.</p>
-		</article>
-		
-		<!--Where Products are From-->
-		<article><h2>FOOD AS IT SHOULD BE</h2>
-			<p>Focusing on healthy food choices does not mean you have to give up taste or even an occasional treat. Whole unprocessed foods can be as tasty as they are healthy. Breadible serves mouth-watering foods from whole grain bread to even multigrain pasta all while staying gluten-free.</p>
-		</article>
-		
-		<!--Ingredients-->
-		<article><h2>INGREDIENT STATEMENT</h2>
-        	<p>Great ingredients make great tasting food, which is why we try to use the freshest and healthiest ingredients in our preparation. Our bread is made with no shortcuts, allowing them to always taste delicious. Our fruits and vegetables come straight from the farmers market to the bakers with no refrigeration in between and our meat is bought from a local supplier, allowing quick and efficient transportation as well as no preservatives.</p>
-        </article>
-        
-        <!--No Artificial Ingredients Statement-->
-        <article><h2>NO ARTIFICIAL INGREDIENTS</h2>
-        	<p>Breadible takes pride in removing all artificial trans fats, colors, sweeteners, preservatives, and flavors from our products. Bought fresh and served fresh, we serve food as it should be eaten.</p>
-        </article>
-	</section>
 	
+	<div id="price-form">
+	 	
+	 	<!--BREADIBLE INFORMATION-->
+	 	<h1>YOU WANT <span style="color: #ff0101">FUN.</span><br> WE HAVE <span style="color: #ff0101">GAMES.</span></h1>
+	 </div>
+	 <!--Informational Games Page Images Slideshow-->
+	 <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/FunandGamesHome.jpg" style="width:100%">
+    <div class="text">A View of BOUNDLESS</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/FunandGamesHome2.jpg" style="width:100%">
+    <div class="text">Are YOU Ready For a WHIRL!</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/FunandGamesHome3.jpg" style="width:100%">
+    <div class="text">Our Best Horse Sparky Is Always Ready For New Customers</div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+	<!--Informational Games Page-->
+		 <div id="triplesectionwrapper">
+		<!--Informational Games-->
+		<section class="triplesection">
+			<h1>The Crazy Swing</h1>
+			<img src="images/TheCrazySwing.jpg">
+			<article>
+				<h2><h2>
+				<h3>Step back and relax as the Crazy Swing take YOU on indoor ride of a lifetime.<h3>
+				<p>*Must be 13 or older to ride</a></p>
+			</article>
+		</section>
+		
+
+
+		<section class="triplesection">
+			<h1>FerrisWheel</h1>
+			<img src="images/FerrisWheel.jpg">
+			<article>
+				<h2><h2>
+				<h3>Slow down and take a relaxing ride, gazing down at the park from high above.<h3>
+				<p>*ALL AGES! </p>
+			</article>
+		</section>
 	
+
+
+		
+		<section class="triplesection">
+			<h1>Train<h1>
+			<img src="images/train.jpg" id="bakesale">
+			<article>
+				<h3>Slow down and take a relaxing ride, gazing down at the park from ground level.<h3>
+				<p>*ALL AGES!</p>
+		</section>
 	
+	</div>
+	<div id="sectiondivide"></div>
+</div>
+	<div id="triplesectionwrapper">
+		<section class="triplesection">
+		<h1>The DROP</h1>
+			<img src="images/The Drop.jpg">
+			<article>
+				<h2><h2>
+				<h3>WE KNOW YOU'RE INTENSE! But so is THE DROP. SO GET READY!!<h3>
+				<p>*Must be 13 or older to ride</p>
+			</article>
+		</section>
+	
+		<section class="triplesection">
+		<h1>Arcade</h1>
+			<img src="images/Arcade.jpg">
+			<article>
+				<h3>We have an entire boundless array of arcade games for to enjoy. So take a break from the rides, and enjoy the games!<h3>
+				<p>*All AGES!</p>
+			</article>
+		</section>
+		
+		<section class="triplesection">
+			<h1>The Whirl</h1>
+			<img src="images/The Whirl.jpg" id="bakesale">
+			<article>
+				<h2><h2>
+				<h3>Sit back and go for a WHIRLLL!!!</h3>
+				<p>*Must be 13 or older to ride</p>			
+				</article>
+		</section>
+		<!--End Information Section Celiac Disease-->
+	</div>
+<div id="sectiondivide"></div>
+	<div id="triplesectionwrapper">
+		<!--Informational Section Chef-->
+		<section class="triplesection">
+		<h1>The Coaster</h1>
+			<img src="images/The Coaster.jpg">
+			<article>
+				<h3>Coast through life easy? Coast through this ride even more!<h3>
+				<p>*Must be 13 or older to ride</p>
+			</article>
+		</section>
+
+		<section class="triplesection">
+		<h1>The Swirl</h1>
+			<img src="images/The Swirl.jpg">
+			<article>
+				<h3>The Swirl takes you on a spin of a lifetime. We just hope that you won't be spun up afterwards!<h3>
+				<p>*Must be 13 or older to ride</p>
+			</article>
+		</section>
+		
+
+
+	
+<div id="sectiondivide"></div>
+
 	
 	
 	
