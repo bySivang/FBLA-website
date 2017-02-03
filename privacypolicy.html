@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="en-us">
+<body onload="currentSlide(1);">
 <head>
 	<meta charset="UTF-8">
-	<title>Privacy Policy | Breadible</title>
+	<title>Our Beliefs | Boundless</title>
 	<link rel="stylesheet" href="main.css">
-	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'><!--Font-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type='text/css'><!--Font-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script type="text/javascript" src="main.js"></script>
 	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)"><!--Responsive design for tablet-->
 	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)"><!--Responsive design for phone-->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 </head>	
 <body>
 	<!--Header that contains the logo-->
 	<header>
 		<!--Small decorative div at the top that displays the phone number-->
-		<div id="phonenumberdiv"><p>Call us at <b>555-555-5555</b></p>
+		<div id="phonenumberdiv"><p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
+			
+		<b id=phonenumber2>555-555-5555</b></p>
 		
 		<!--Logo-->
-		<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+			<a href="index.html"><img src="images/boundlesslogo.png" alt=“Boundless Entertainment Logo" title=“Boundless Entertainment:Family Entertainment Center“ id="logo"></a>
 		</div>
 	</header>
 	
+	<div id="phonenumberdivbottom">
+	</div>	
+	
+	
+	
+	
 	<!--Navigation-->
 	<nav id="navigation">
-				<img src="images/menuicon.png" id="icon" onclick="drop()" height ="7%" width ="7%"></img>
-				<!--Dropdown menu-->
+		
+		<!--Mobile Nav-->
+		<img src="images/menuicon.png" id="icon" onclick="drop()" height ="7%" width ="7%"></img>
 		<ul id="menudropdown">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Menu</a></li>
-			<li><a href="nutrition.html">Nutrition</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-			<li><a href="mybreadibility.html">My Breadibility</a></li>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="hours.html">HOURS & LOCATION</a></li>
+			<li><a href="parties.html">PARTIES</a></li>
+			<li><a href="funandgames.html">FUN & GAMES</a></li>
+			<li><a href="snackbar.html">SNACKBAR</a></li>
+			<li class="active"><a href="prices.html">PRICES</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+			<li><a href="mybreadibility.html">MY ACCOUNT</a></li>
 		</ul>
-		<!--Desktop menu-->
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Menu</a></li>
-			<li><a href="nutrition.html">Nutrition</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		
+		<!--Desktop navigation (Hidden in mobile view)-->
+		<ul id="navi">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="hours.html">HOURS & LOCATION</a></li>
+			<li class="active"><a href="parties.html">PARTIES</a></li>
+			<li><a href="funandgames.html">FUN & GAMES</a></li>
+			<li><a href="snackbar.html">SNACKBAR</a></li>
+			<li><a href="prices.html">PRICES</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+			<li><a href="mybreadibility.html">MY ACCOUNT</a></li>
 		</ul>
 	</nav>
+
 	
 	
 	<!--Secondary Nav-->
@@ -62,20 +77,20 @@
 		<article id="privacyarticle">
 		    <h1>Privacy Policy </h1>
 		    
-		    <p>(LAST UPDATED DECEMBER 14, 2015)</p><br>
-		    <p>This policy describes the personal information we collect on  www.breadible.com  and any other authorized sites, services and tools where this policy appears (collectively, this "Site"), how we use it, and when we share it with third parties. Program terms applicable to Programs not described herein or in the Terms of Use Statement provide additional information about information collected related to that Program(s) and how it is used in connection with the applicable Program. This policy applies only to information collected via this Site, and unless otherwise specifically described herein or in any Program terms, does not apply to information collected offline (including but not limited to information you may provide over the phone, via fax, or when visiting a Breadible bakery-cafe or any other website of Breadible or on third party sites) (see Third Party Sites section below). Please note that not all of the features/functionality described are available on or through each portion of the Site.</p>
+		    <p>(LAST UPDATED FEBRUARY 2, 2017)</p><br>
+		    <p>This policy describes the personal information we collect on  www.boundlessentertainment.ga  and any other authorized sites, services and tools where this policy appears (collectively, this "Site"), how we use it, and when we share it with third parties. Program terms applicable to Programs not described herein or in the Terms of Use Statement provide additional information about information collected related to that Program(s) and how it is used in connection with the applicable Program. This policy applies only to information collected via this Site, and unless otherwise specifically described herein or in any Program terms, does not apply to information collected offline (including but not limited to information you may provide over the phone, via fax, or when visiting a Boundless Entertainment Center or any other website of Boundless or on third party sites) (see Third Party Sites section below). Please note that not all of the features/functionality described are available on or through each portion of the Site.</p>
 		    <p>By using this Site, you agree to this Privacy Policy and to the Terms of Use statement ("Statement") governing its use and Program terms applicable to various Programs. If you have questions, comments or concerns about this Privacy Policy, please Contact Us. Be sure to check this page periodically for updates, as your continued use of this Site and/or participation in any Program signifies your acceptance of any changed terms.</p>
 		    
 		    <h2>For More Information</h2>
 		    
 		    <p>If you have any questions regarding our Privacy Policy, please <a href="contactus.html">Contact Us</a> or write to us at:<br><br>
+
+			Family Entertainment Center<br>
+	           	Boundless<br>
+	           	3630 Washington Road<br>
+	            	Sayreville, NJ 08872<br><br>
 	
-				Gluten-Free Bakery and Restaurant<br>
-	            Breadible<br>
-	            3630 Washington Road<br>
-	            Sayreville, NJ 08872<br><br>
-	
-				© 2015-2016 Breadible. All Rights Reserved.</p>
+				© 2016-2017 Boundless. All Rights Reserved.</p>
 				<!-- End of Privacy Policy-->
 		</article>
 	</section>
@@ -88,7 +103,7 @@
 	<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
 	<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
 	<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
-	<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+	<p id="copyright">Copyright &#169 2017 Boundless Entertainment. All rights reserved. </p>
 	
 	<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
 </div>

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us">
+<body onload="currentSlide(1);">
 <head>
 	<meta charset="UTF-8">
-	<title>Terms of Use | Boundless</title>
-	
-	<!-- Resources and scripts-->
+	<title>Our Beliefs | Boundless</title>
 	<link rel="stylesheet" href="main.css">
-	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'><!--Font-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type='text/css'><!--Font-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="main.js"></script>
 	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)"><!--Responsive design for tablet-->
 	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)"><!--Responsive design for phone-->
 </head>	
@@ -16,12 +17,18 @@
 	<!--Header that contains the logo-->
 	<header>
 		<!--Small decorative div at the top that displays the phone number-->
-		<div id="phonenumberdiv"><p>Call us at <b>555-555-5555</b></p>
+		<div id="phonenumberdiv"><p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
+			
+		<b id=phonenumber2>555-555-5555</b></p>
 		
 		<!--Logo-->
-		<a href="index.html"><img src="images/boundlesslogo.svg" alt="Boundless Logo" title=“Boundless: Family Entertainment Center” id="logo"></a>
+			<a href="index.html"><img src="images/boundlesslogo.png" alt=“Boundless Entertainment Logo" title=“Boundless Entertainment:Family Entertainment Center“ id="logo"></a>
 		</div>
 	</header>
+	
+	<div id="phonenumberdivbottom">
+	</div>	
+	
 	
 	
 	
@@ -31,22 +38,26 @@
 		<!--Mobile Nav-->
 		<img src="images/menuicon.png" id="icon" onclick="drop()" height ="7%" width ="7%"></img>
 		<ul id="menudropdown">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Menu</a></li>
-			<li><a href="nutrition.html">Nutrition</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-			<li><a href="mybreadibility.html">My Breadibility</a></li>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="hours.html">HOURS & LOCATION</a></li>
+			<li><a href="parties.html">PARTIES</a></li>
+			<li><a href="funandgames.html">FUN & GAMES</a></li>
+			<li><a href="snackbar.html">SNACKBAR</a></li>
+			<li class="active"><a href="prices.html">PRICES</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+			<li><a href="mybreadibility.html">MY ACCOUNT</a></li>
 		</ul>
 		
-		<!--Desktop Nav-->
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Menu</a></li>
-			<li><a href="nutrition.html">Nutrition</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-			<li><a href="mybreadibility.html">My Breadibility</a></li>
+		<!--Desktop navigation (Hidden in mobile view)-->
+		<ul id="navi">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="hours.html">HOURS & LOCATION</a></li>
+			<li class="active"><a href="parties.html">PARTIES</a></li>
+			<li><a href="funandgames.html">FUN & GAMES</a></li>
+			<li><a href="snackbar.html">SNACKBAR</a></li>
+			<li><a href="prices.html">PRICES</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+			<li><a href="mybreadibility.html">MY ACCOUNT</a></li>
 		</ul>
 	</nav>
 	
@@ -65,20 +76,18 @@
 	<article id="privacyarticle">
 	    <h1>Terms of Use</h1>
 	    
-	    <p>(LAST UPDATED DECEMBER 19, 2015)</p><br>
-	    <p>Welcome to the website of Breadible, www.breadible.tk. Set out below are certain terms and conditions for use of this Site. You agree to be bound by these terms if you use this Site. If you do not agree with this Terms of Use statement ("Statement"), the Privacy Policy and/or any of the applicable Program terms, do not use this Site and do not participate in the Programs. Not all of the features/functionality described are available on or through each portion of the Site. Be sure to check this page periodically for updates, as your continued use of this Site and/or participation in any of the Programs signifies your acceptance of any changed items.</p>
+	    <p>(LAST UPDATED FEBRUARY 2, 2017)</p><br>
+	    <p>Welcome to the website of Boundless, www.boundlessentertainment.ga. Set out below are certain terms and conditions for use of this Site. You agree to be bound by these terms if you use this Site. If you do not agree with this Terms of Use statement ("Statement"), the Privacy Policy and/or any of the applicable Program terms, do not use this Site and do not participate in the Programs. Not all of the features/functionality described are available on or through each portion of the Site. Be sure to check this page periodically for updates, as your continued use of this Site and/or participation in any of the Programs signifies your acceptance of any changed items.</p>
 	    <h2>Our Intellectual Property</h2>
-	    <p>The Breadible logo is the intellectual property of Breadible. Other trademarks are the intellectual property of their respective owners.</p>
-	    <p>This Site and all of its contents (including, without limitation, articles, text, photographs, images, illustrations, graphics, video material, audio material, and software — collectively, the "intellectual property"), are protected by copyright, trademark and other laws of the United States, as well as international conventions and the laws of other countries. The intellectual property is owned or controlled by Breadible, its supplier(s) or the party credited as the provider of the intellectual property. Additionally, this Site itself is protected by copyright as a collective work and/or compilation. Certain aspects of the Site to which the Terms relate, namely Online Ordering, are covered by U.S. Patent No. 9,070,175.</p>
-	    <p>Your use of this Site does not create, and nothing contained in this Site shall be construed as creating or conferring to you, by implication, estoppel, or otherwise, a license or any other rights in trademarks, service marks, copyrights or other intellectual property rights or any other rights of Breadible, its supplier(s), or any third party. This Site is provided free of charge and unless specifically otherwise identified is for informational purposes only and, unless specifically otherwise identified, does not create a business or professional services relationship between you and Breadible, its supplier(s) or any of its franchisees.</p>
+	    <p>The Boundless logo is the intellectual property of Boundless Entertainment. Other trademarks are the intellectual property of their respective owners.</p>
+	    <p>This Site and all of its contents (including, without limitation, articles, text, photographs, images, illustrations, graphics, video material, audio material, and software — collectively, the "intellectual property"), are protected by copyright, trademark and other laws of the United States, as well as international conventions and the laws of other countries. The intellectual property is owned or controlled by Boundless, its supplier(s) or the party credited as the provider of the intellectual property. Additionally, this Site itself is protected by copyright as a collective work and/or compilation. Certain aspects of the Site to which the Terms relate, namely Online Ordering, are covered by U.S. Patent No. 9,070,175.</p>
+	    <p>Your use of this Site does not create, and nothing contained in this Site shall be construed as creating or conferring to you, by implication, estoppel, or otherwise, a license or any other rights in trademarks, service marks, copyrights or other intellectual property rights or any other rights of Boundless Entertainment, its supplier(s), or any third party. This Site is provided free of charge and unless specifically otherwise identified is for informational purposes only and, unless specifically otherwise identified, does not create a business or professional services relationship between you and Boundless Entertainment, its supplier(s) or any of its franchisees.</p>
 		
 	    <h2>Additional Terms</h2>
-	    <p>The following sites have helped provide files and pictures for non-commercial copyright usage for Breadible:<br>
+	    <p>The following sites have helped provide files and pictures for non-commercial copyright usage for Boundless Entertainment:<br>
 	    
 	    
-	    
-	    
-	    <!--All websites below were used when making breadible.com-->
+	    <!--All websites below were used when making boundlessentertainment.ga—>
 	    <p>Nutrition: "bread-food-healthy-breakfast" is licensed under CC0 and is free for personal and commercial use,<br> 
 		<a href="https://www.pexels.com/photo/bread-food-healthy-breakfast-2436/" target="_blank">https://www.pexels.com/photo/bread-food-healthy-breakfast-2436/</a></p>
 
@@ -97,7 +106,7 @@
 		<p>Background-Textures: "Asfalt-Dark" by Atle Mo and "Buried" by Hendrik Lammers has been dedicated to the public domain and has all rights waived. This file may be copied, modified, and distributed, even for commercial purposes. <br>
 		<a href="http://www.transparenttextures.com/" target="_blank">http://www.transparenttextures.com/</a></p>
 
-		<p>All images not referenced are intellectual property of Breadible.</p>
+		<p>All images not referenced are intellectual property of Boundless Entertainment.</p>
 	    <!--End websites used-->
 	    </p>
 	    
@@ -110,12 +119,12 @@
 	    
 	    <p>If you have any questions regarding our Privacy Policy, please Contact Us or write to us at:<br><br>
 
-            Gluten-Free Bakery and Restaurant<br>
-            Breadible<br>
+            Family Entertainment Center<br>
+            Boundless Entertainment<br>
             3630 Washington Road<br>
             Sayreville, NJ 08872<br><br>
 
-© 2015-2016 Breadible. All Rights Reserved.</p>
+© 2016-2017 Boundless Entertainment. All Rights Reserved.</p>
 	</article>
 	</section>
 	
@@ -124,10 +133,10 @@
 	<!--Legal Notice and Copyright Issue-->
 	<div id="footer">
 		<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
-		<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
-		<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+		<a href="https://www.instagram.com/boundlessentertainment/“ target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+		<a href="https://twitter.com/BoundlessEntertainmentBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
 		<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
-		<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+		<p id="copyright">Copyright &#169 2017 Boundless Entertainment. All rights reserved. </p>
 		<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
 	</div>
 </body>
