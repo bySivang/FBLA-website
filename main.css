@@ -47,21 +47,21 @@ body {
 }
 #phonenumberdivbottom{
 	width: 100%;
- min-height: 30px;
- text-align: center
- max-width: 1000px;
- font-weight: 10000px;
-  background-color: #15B7ED;
-  background-image: url(http://www.transparenttextures.com/patterns/flowers.png);
+	min-height: 30px;
+	text-align: center
+	max-width: 1000px;
+	font-weight: 10000px;
+	background-color: #15B7ED;
+	background-image: url(http://www.transparenttextures.com/patterns/flowers.png);
 	float: left; 
   }
   #sectiondivide{
 	width: 100%;
- min-height: 30px;
- text-align: center
- max-width: 1000px;
- font-weight: 10000px;
-  background-color: #000000;
+ 	min-height: 30px;
+ 	text-align: center
+	max-width: 1000px;
+ 	font-weight: 10000px;
+ 	background-color: #000000;
 	float: left; 
   }
 
@@ -223,9 +223,8 @@ nav a {
 
 .onesection {
 	width: 100%;
-	
 	float: center;
-	font-family: 'Londrina Solid', cursive;
+	font-family: 'Contrail One', cursive;
 	margin-bottom: 10px;
 }
 .onesection img {
@@ -304,7 +303,7 @@ nav a {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: black;
 }
 
 /* Caption text */
@@ -802,7 +801,7 @@ select {
 
 #menu_pastries p {
 	text-align: center;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
 }
 
@@ -812,7 +811,7 @@ select {
 
 #menu_snackbar p {
 	text-align: left;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
 }
 
@@ -822,7 +821,7 @@ select {
 
 #overview {
 	font-size: 1.4em;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	margin-bottom: 20px;
 }
 
@@ -830,15 +829,16 @@ select {
 	max-width: 400px;
 	text-align: center;
 	color: #FFFFFF;
-	font-family: ‘Hind’, sans-serif;  
-	font-size: 1em;
+	font-family: 'Oswald', sans-serif;  
+	font-size: 1.5em;
 }
 
 .food_price {
 	width: .5%;
 	text-align: center;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.5em;
+	color: red;
 }
 
 .food_description {
@@ -846,9 +846,10 @@ select {
 	width: 2%;
 	padding-left: 5%;
 	text-align: left;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.3em;
 	padding-bottom: 25px;
+	color: #15B7ED
 }
 
 #menu_navigation {
@@ -859,7 +860,7 @@ select {
 	max-width: 600px;
 	margin: auto;
 	text-align: center;
-	font-family: 'Bangers', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.5em;
 	color: #FFFFFF;
 	border-bottom: solid #FFFFFF 2px;
@@ -949,7 +950,7 @@ select {
 	text-align: center;
 	background-color: #15B7ED;
 	color: #FFFFFF;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	padding: 20px;
 }
 
@@ -967,7 +968,7 @@ select {
 	text-align: center;
 	background-color: #15B7ED;
 	color: #FFFFFF;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	padding:0px 20px 20px;
 }
 
@@ -1095,7 +1096,7 @@ th {
 .adp-text {
 	background-color: #15B7ED;
 	color: #FFFFFF;
-	font-family: ‘Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.5em;
 }
 
