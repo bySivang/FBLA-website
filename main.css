@@ -16,11 +16,8 @@ Light Pink: #ffdbf6
 /* General Styles & Index*/
 body {
 	position: relative;
-<<<<<<< HEAD
 	background-color: black;
-=======
 	background-color: #000000;
->>>>>>> origin/master
 	background-image: url(http://www.transparenttextures.com/patterns/asfalt.png);
 	height: 100%;
 	width: 100%;
