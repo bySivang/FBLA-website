@@ -1,4 +1,4 @@
-/*Style Sheet*/
+﻿/*Style Sheet*/
 
 /*COLORS USED:
 
@@ -154,7 +154,7 @@ nav a {
 	float: left;
 	font-family: 'Contrail One', cursive;
 	margin-bottom: 10px;
-	
+	color: white;
 }
 .triplesection1 {
 	width: 33%;
@@ -566,7 +566,7 @@ select {
 
 #secondnav {
 	height: auto;
-	background-color: rgba(74, 34, 26, .9);
+	background-color: black;
 	width: 100%;
 	text-align: center;
 	font-size: 1em;
@@ -601,14 +601,14 @@ select {
 
 #privacypolicy h1 {
 	margin-top: 20px;
-	font-family: ‘Bangers’, cursive;
+	font-family: â€˜Bangersâ€™, cursive;
 	text-align: left;
 	font-size: 2em;
 	color: #FFFFFF;
 }
 
 #privacypolicy h2 {
-	font-family: ‘Bangers’, cursive;
+	font-family: â€˜Bangersâ€™, cursive;
 	text-align: left;
 	font-size: 1.5em;
 	color: #FFFFFF;
@@ -628,6 +628,7 @@ select {
 
 #privacyarticle {
 	width: 70%;
+	color: white;
 }
 
 #privacypolicy a {
@@ -689,7 +690,7 @@ select {
 /*Prices*/
 #price-form {
 	display: center;
-	width: 45%;
+	width: 80%;
 	margin: auto;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -829,7 +830,11 @@ select {
 	max-width: 400px;
 	text-align: center;
 	color: #FFFFFF;
+<<<<<<< HEAD
 	font-family: 'Oswald', sans-serif;  
+=======
+	font-family: 'Oswald', sans-serif;
+>>>>>>> origin/master
 	font-size: 1.5em;
 }
 
@@ -849,7 +854,11 @@ select {
 	font-family: 'Contrail One', cursive;
 	font-size: 1.3em;
 	padding-bottom: 25px;
+<<<<<<< HEAD
 	color: #15B7ED
+=======
+	color: #15B7ED;
+>>>>>>> origin/master
 }
 
 #menu_navigation {
@@ -861,12 +870,25 @@ select {
 	margin: auto;
 	text-align: center;
 	font-family: 'Contrail One', cursive;
+<<<<<<< HEAD
 	font-size: 1.5em;
+=======
+	font-size: 1.3em;
+>>>>>>> origin/master
 	color: #FFFFFF;
 	border-bottom: solid #FFFFFF 2px;
 	border-top: solid #FFFFFF 2px;
 	margin-bottom: 10px;
 	padding: 10px 0px;
+}
+#borderdecoration1 {
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Contrail One', cursive;
+	font-size: 1.3em;
+	padding: 10px 0px;
+	color: #FFFFFF;
 }
 
 #overview a {
@@ -950,7 +972,11 @@ select {
 	text-align: center;
 	background-color: #15B7ED;
 	color: #FFFFFF;
+<<<<<<< HEAD
 	font-family: 'Contrail One', cursive;
+=======
+	font-family: â€˜Contrail One', cursive;
+>>>>>>> origin/master
 	padding: 20px;
 }
 
@@ -968,7 +994,11 @@ select {
 	text-align: center;
 	background-color: #15B7ED;
 	color: #FFFFFF;
+<<<<<<< HEAD
 	font-family: 'Contrail One', cursive;
+=======
+	font-family: â€˜Contrail One', cursive;
+>>>>>>> origin/master
 	padding:0px 20px 20px;
 }
 
@@ -994,6 +1024,7 @@ select {
 
 #reviewform {
 	width: 95%;
+	color: white;
 	margin: auto;
 }
 
@@ -1096,7 +1127,11 @@ th {
 .adp-text {
 	background-color: #15B7ED;
 	color: #FFFFFF;
+<<<<<<< HEAD
 	font-family: 'Contrail One', cursive;
+=======
+	font-family: â€˜Contrail One', cursive;
+>>>>>>> origin/master
 	font-size: 1.5em;
 }
 
@@ -1364,16 +1399,16 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	width: 100%;
 	margin: auto;
 	text-align: center;
-	font-family: 'Bangers', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.5em;
-	color: blue;
+	color: aqua;
 	margin-bottom: 10px;
 	padding: 10px 0px;
-	background-color: white;
+	background-color: black;
 }
 #parties-form {
 	display: center;
-	width: 100%;
+	width: 70%;
 	margin: 0;
 	text-align: center;
 	font-family: 'Contrail One', cursive;
@@ -1403,12 +1438,14 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 #secondnav a {
 	color: white;
 	text-decoration: none;
+	font-size: large;
 }
 
 #nutritionbody {
 	text-align: center;
 	width: 95%;
 	margin: 10px auto;
+	
 }
 
 #nutritionbody article {
@@ -1420,7 +1457,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 }
 
 #nutritionbody article h2 {
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	letter-spacing: 2px;
 	font-size: 2em;
 	color: #15B7ED;
@@ -1431,7 +1468,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	margin: 10px auto 0px;
 	padding: 0 50px 40px;
 	opacity: .8;
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	font-size: 1.3em;
 	color: #15B7ED;
 	border-bottom: 2px #15B7ED solid;
@@ -1441,7 +1478,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	width: 100%;
 	border: 2px #15B7ED solid;
 	opacity: .8;
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	font-size: 1.3em;
 	color: #15B7ED;
 	border-bottom: 2px #15B7ED solid;
@@ -1476,7 +1513,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	padding-top:10px;
 	margin: auto;
 	text-align: center;
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	font-size: 2.5em;
 	text-decoration: underline;
 	color: #ffdbf6;
@@ -1486,7 +1523,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	max-width: 550px;
 	margin: auto;
 	text-align: center;
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	font-size: 1.5em;
 }
 
@@ -1499,7 +1536,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	margin: auto;
 	margin-top: 25px;
 	margin-bottom: 20px;
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	padding: 7px;
 	background-color: #15B7ED;
 }
@@ -1524,7 +1561,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 }
 
 .faq {
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	font-size: 2em;
 	display: block;
 	text-align: center;
@@ -1565,7 +1602,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 }
 
 #signup {
-	font-family: “Contrail One", cursive;
+	font-family: "â€œContrail One", ", cursive";
 	font-size: 1.2em;
 	display: block;
 	text-align: center;
@@ -1623,7 +1660,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	text-align: center;
 	background-color: #15B7ED;
 	color: #ffdbf6;
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	padding:0px 20px 20px;
 }
 
@@ -1663,7 +1700,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 #redeemtable {
 	border: 2px #15B7ED solid;
 	opacity: .8;
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	font-size: 1.3em;
 	color: #15B7ED;
 	border-bottom: 2px #15B7ED solid;
@@ -1685,7 +1722,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 .heador{
 	width: 33%;
 	margin:auto;
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	margin-bottom: 10px;
 }
 
@@ -1721,7 +1758,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 
 .blockdisplay {
 	display:block;
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	margin-bottom: 30px;
 	text-align:center;
 	color: #FFFFFF;
@@ -1729,11 +1766,11 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 
 #accountcard {
 	display:block;
-	font-family: ‘Contrail One', cursive;
+	font-family: â€˜Contrail One', cursive;
 	font-size:1.5em;
 	margin-bottom: 10px;
 	text-align:center;
-	color:#4A221A;
+	color:#15B7ED;
 }
 
 
@@ -1743,9 +1780,9 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 
 /*Recipe Page*/
 .recipe {
-  font-family: ‘Contrail One', cursive;
+  font-family: â€˜Contrail One', cursive;
   font-size: 1.3em;
-  background:#4A221A;
+  background: #15B7ED;
   margin:10px;
   display: block;
   text-align:center;
