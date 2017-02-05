@@ -116,25 +116,49 @@ function showSlides(n) {
 
         //Create a popup box that shows your review has gone through
             function reviewsubmit() {
-                var rform = document.getElementById("reviewform");
-                var fname = rform.firstname.value; //Get submitted values from form
-                var lname = rform.lastname.value; //Get submitted values from form
-                var radiochecked = 0; //Count number of checked boxes
-        
-                if ($('input[name=quality]:checked').length > 0) {
-                    radiochecked++;}
-                if ($('input[name=atmo]:checked').length > 0) {
-                    radiochecked++;}
-                if ($('input[name=staff]:checked').length > 0) {
-                    radiochecked++;}
-                if ($('input[name=speed]:checked').length > 0) {
-                    radiochecked++;}
-    
-                if (lname != "" && fname != "" && radiochecked == 4) { //Checks if everything is filled and all buttons are checked
-                    document.getElementById("reviewpopup").style.display = "block";}
+	          var rform = document.getElementById("reviewform");
+				var radiochecked = 0; //Count number of checked boxes
+				if(rform.quality.value >0){
+					radiochecked++
+				}
+				if(rform.atmo.value > 0 ){
+					radiochecked++;
+				}
+				if(rform.staff.value >0){
+					radiochecked++;
+				}
+				if(rform.speed.value > 0){
+					radiochecked++;
+				}	
+					
+	
+                if (radiochecked == 4) { //Checks if everything is filled and all buttons are checked
+				 alert("Thank you for Submitting the Form.We Appreciate The Feedback");
+                   /*document.getElementById("reviewpopup").style.display = "block";*/
+				}
                 else {
-                    alert("Please fill out all the criteria. You're missing something.");}
+					
+                    alert("Please fill out all the criteria. You're missing something.");
+					}
                 }
+				
+				
+				
+				function getRadioCheckedValue(radio_name)
+{
+   var oRadio = document.form[1].elements[radio_name];
+ 
+   for(var i = 0; i < oRadio.length; i++)
+   {
+      if(oRadio[i].checked)
+      {
+         return oRadio[i].value;
+      }
+   }
+ 
+   return '';
+}
+			
 
         //Create a popup box that shows your contact information has gone through
             function contactsubmit() {
