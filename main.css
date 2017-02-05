@@ -1,4 +1,4 @@
-﻿/*Style Sheet*/
+/*Style Sheet*/
 
 /*COLORS USED:
 
@@ -743,8 +743,9 @@ select {
 
 /*Snackbar Page*/
 #menubody body #footer {
-	position:absolute;
+	position: absolute;
 	bottom:0;
+
 }
 
 #hours {
@@ -870,11 +871,8 @@ select {
 	margin: auto;
 	text-align: center;
 	font-family: 'Contrail One', cursive;
-<<<<<<< HEAD
 	font-size: 1.5em;
-=======
 	font-size: 1.3em;
->>>>>>> origin/master
 	color: #FFFFFF;
 	border-bottom: solid #FFFFFF 2px;
 	border-top: solid #FFFFFF 2px;
@@ -1408,7 +1406,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 }
 #parties-form {
 	display: center;
-	width: 70%;
+	width: 100%;
 	margin: 0;
 	text-align: center;
 	font-family: 'Contrail One', cursive;
@@ -1508,23 +1506,25 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 
 
 /*My Breadibility Page*/
+
 #Breadibility-h1 {
 	max-width: 550px;
 	padding-top:10px;
 	margin: auto;
 	text-align: center;
-	font-family: â€˜Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 2.5em;
 	text-decoration: underline;
-	color: #ffdbf6;
+	color: white;
 }
 
 #Breadibility-p {
 	max-width: 550px;
 	margin: auto;
 	text-align: center;
-	font-family: â€˜Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.5em;
+	color: white;
 }
 
 .login {
