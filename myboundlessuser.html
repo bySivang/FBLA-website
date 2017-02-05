@@ -2,52 +2,81 @@
 	<html lang="en-us">
 <head>
 	<meta charset="UTF-8">
-	<title>My Boundless | Boundless Entertainment</title>
-	<link rel="stylesheet" href="main.css"><!-- All css for the whole website-->
-	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'><!--Font used to focus attention-->
-	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'><!--Font used for headers-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sets view for mobile devices-->
-	<script src="main.js"></script><!--All javascript for the whole website-->
-	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)"><!--Responsive design for tablet-->
-	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)"><!--Responsive design for phone-->
+		<meta charset="UTF-8">
+	<meta name="keywords" content="Boundless,FEC,Sayreville,">
+	<meta name="description" content="Family Entertainment Center in Sayreville, NJ">
+	<meta name="author" content=“Sivang Modi and Kunal Kadakia“>
+	<title>Boundless Entertainment</title>
+	<link rel="stylesheet" href="main.css"><!--Stylesheet-->
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type='text/css'><!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'><!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'><!--Font-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sets view for mobile-->
+	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)">
+	<!--Responsive css for tablet-->
+	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)">
+	<!--Responsive css for phone-->
+	<script type="text/javascript" src="main.js"></script><!--javascript-->
+	
+	<!--link jquery to use for reservation datepicker-->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script>
+		//Creates an id to give to html objects to allow date boxes to appear after clicking
+		$(function() {
+			$("#datepicker").datepicker();
+		});
+		
+		
+		
+		
+		
+	</script>
 </head>
+
 
 <body onload="usersname()">
 	<!--Header that contains the logo-->
 	<header>
-		<!--Large decorative div at the top that displays the phone number and logo-->
-		<div id="phonenumberdiv">
-			<p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b> <!-- Phone number becomes clickable in mobile view-->
-
-				<b id=phonenumber2>555-555-5555</b></p> <!-- Unclickable Phone number, desktop view-->
-
-			<!--Logo-->
-			<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+		<!--Small decorative div at the top that displays the phone number-->
+		<div id="phonenumberdiv"><p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
+			
+		<b id=phonenumber2>732-281-9372</b></p>
+		
+		<!--Logo-->
+			<a href="index.html"><img src="images/boundlesslogo.png" alt=“Boundless Entertainment Logo" title=Boundless Entertainment:Family Entertainment Center“ id="logo"></a>
 		</div>
 	</header>
+	<div id="phonenumberdivbottom">
+</div>
 
 	<!--Navigation-->
 	<nav id="navigation">
 		
-		<!--Dropdown menu-->
-		<img src="images/menuicon.png" id="icon" onclick="drop()" height="7%" width="7%"></img><!--Menu dropdown icon-->
-		<ul id="menudropdown">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Menu</a></li>
-			<li><a href="nutrition.html">Nutrition</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-			<li class="active"><a href="mybreadibility.html">My Breadibility</a></li>
+		<!--Mobile navigation (Hidden in desktop mode)-->
+		<img src="images/menuicon.png" id="icon" onclick="drop()" height="7%" width="7%"></img>
+		<ul id="menudropdown"><!--Mobile Icon-->
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="hours.html">HOURS & LOCATION</a></li>
+			<li><a href="parties.html">PARTIES</a></li>
+			<li><a href="funandgames.html">FUN & GAMES</a></li>
+			<li><a href="snackbar.html">SNACKBAR</a></li>
+			<li><a href="prices.html">PRICES</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+			<li class="active"><a href="myboundless.html">MY ACCOUNT</a></li>
 		</ul>
-
-		<!--Desktop menu-->
+		
+		<!--Desktop navigation (Hidden in mobile view)-->
 		<ul id="navi">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Menu</a></li>
-			<li><a href="nutrition.html">Nutrition</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-			<li class="active"><a href="mybreadibility.html">My Breadibility</a></li>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="hours.html">HOURS & LOCATION</a></li>
+			<li><a href="parties.html">PARTIES</a></li>
+			<li><a href="funandgames.html">FUN & GAMES</a></li>
+			<li><a href="snackbar.html">SNACKBAR</a></li>
+			<li><a href="prices.html">PRICES</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+			<li class="active"><a href="myboundless.html">MY ACCOUNT</a></li>
 		</ul>
 	</nav>
 	<!--End Navigation-->
@@ -59,8 +88,6 @@
 	<!--Secondary navigation to other areas of the page-->
     <section id="secondnav">
 		<div class="responsivediv"><h1 class="active"><a href="#">Overview</a></h1></div>
-		<!--style creates horizontal lines on both sides of the div-->
-		<div class="responsivediv" style="border-left:solid 2px #BE5D16; border-right:solid 2px #BE5D16"><h1><a href="recipes.html">Recipes</a></h1></div>
 		<div class="responsivediv"><h1><a href="redeempoints.html">Redeem Points</a></h1></div>
 	</section>
 	<h1 id="Breadibility-h1">Input</h1>
@@ -68,7 +95,7 @@
 	<!-- Points Tracker-->
 	<div class="blockdisplay" id="yourbread" style="text-align:center;">
 		<div>
-			<h1>Your Breadibility</h1>
+			<h1>Your Boundless</h1>
 			<h2 id="points">You Have a total of Points!</h2>
 			<p>Click the Redeem points tab above to earn your prizes!</p>
 		</div>
@@ -82,7 +109,7 @@
 	<div class="triplesectionmobile" id="started" style="text-align:center;">
 		<div style="width:90%;margin:auto;">
 			<h1>Getting Started</h1>
-			<p>This is your Breadibility Page.
+			<p>This is your Boundless Page.
 			<br><br>Here you can access your account information, review recent purchases, and redeem rewards
 			<br><br>Begin by exploring our collection of prizes under the redeem points tab
 			</p>
@@ -95,8 +122,8 @@
 	<!-- Account Card Image and Information-->
 	<div id="accountcard" class="triplesectionmobile" style="text-align:center;">
 		
-		<img src='images/mybreadibilitycard.png' width=90%>
-		<p>MyBreadibility Card Number:00<span id="random"></span></p>
+		
+		<p>MyBoundless Card Number:00<span id="random"></span></p>
 	</div>
 	
 	<div id="accountinfo" class='triplesectionmobile' style="text-align:center;">
@@ -123,16 +150,18 @@
 	
 
 	<!--Footer-->
+		<!--Footer-->
 	<div id="footer">
 		<!-- Social Media-->
-		<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
-		<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
-		<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+		<a href="https://www.facebook.com/boundlessentertainment/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
+		<a href="https://www.instagram.com/boundless_entertainment/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+		<a href="https://twitter.com/boundlessentertainment" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
 		<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
 		<!--Legal Notice and Copyright Issue-->
-		<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+		<p id="copyright">Copyright &#169 2017 Boundless. All rights reserved. </p>
 		<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
-	</div>
+	</div><!--End Footer-->
+
 
 </body>
 
