@@ -183,7 +183,6 @@ nav a {
 	float: left;
 	font-family: 'Contrail One', cursive;
 	margin-bottom: 20px;
-	color: white;
 }
 .triplesection1mobile {
 	width: 33%;
@@ -616,14 +615,14 @@ select {
 
 #privacypolicy h1 {
 	margin-top: 20px;
-	font-family: "Contrail One", cursive;
+	font-family: â€˜Bangersâ€™, cursive;
 	text-align: left;
 	font-size: 2em;
 	color: #FFFFFF;
 }
 
 #privacypolicy h2 {
-	font-family: "Contrail One", cursive;
+	font-family: â€˜Bangersâ€™, cursive;
 	text-align: left;
 	font-size: 1.5em;
 	color: #FFFFFF;
@@ -634,7 +633,6 @@ select {
 	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
 	margin-bottom: 10px;
-	word-wrap: break-word;
 }
 
 #legalsidebar {
@@ -1584,7 +1582,6 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 .faq h1{
 	font-size:1em;
 	margin-bottom:10px;
-	color: white;
 }
 .faq li {
 	width: 75%;

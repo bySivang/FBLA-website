@@ -1,0 +1,139 @@
+<!DOCTYPE html >
+	<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>My Boundless | Boundless Entertainment</title>
+	<link rel="stylesheet" href="main.css"><!-- All css for the whole website-->
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'><!--Font used to focus attention-->
+	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'><!--Font used for headers-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sets view for mobile devices-->
+	<script src="main.js"></script><!--All javascript for the whole website-->
+	<link rel="stylesheet" href="responsive900px.css" media="screen and (max-width:900px)"><!--Responsive design for tablet-->
+	<link rel="stylesheet" href="responsive550px.css" media="screen and (max-width:550px)"><!--Responsive design for phone-->
+</head>
+
+<body onload="usersname()">
+	<!--Header that contains the logo-->
+	<header>
+		<!--Large decorative div at the top that displays the phone number and logo-->
+		<div id="phonenumberdiv">
+			<p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b> <!-- Phone number becomes clickable in mobile view-->
+
+				<b id=phonenumber2>555-555-5555</b></p> <!-- Unclickable Phone number, desktop view-->
+
+			<!--Logo-->
+			<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+		</div>
+	</header>
+
+	<!--Navigation-->
+	<nav id="navigation">
+		
+		<!--Dropdown menu-->
+		<img src="images/menuicon.png" id="icon" onclick="drop()" height="7%" width="7%"></img><!--Menu dropdown icon-->
+		<ul id="menudropdown">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li class="active"><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+
+		<!--Desktop menu-->
+		<ul id="navi">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li class="active"><a href="mybreadibility.html">My Breadibility</a></li>
+		</ul>
+	</nav>
+	<!--End Navigation-->
+
+
+
+
+
+	<!--Secondary navigation to other areas of the page-->
+    <section id="secondnav">
+		<div class="responsivediv"><h1 class="active"><a href="#">Overview</a></h1></div>
+		<!--style creates horizontal lines on both sides of the div-->
+		<div class="responsivediv" style="border-left:solid 2px #BE5D16; border-right:solid 2px #BE5D16"><h1><a href="recipes.html">Recipes</a></h1></div>
+		<div class="responsivediv"><h1><a href="redeempoints.html">Redeem Points</a></h1></div>
+	</section>
+	<h1 id="Breadibility-h1">Input</h1>
+	<br>
+	<!-- Points Tracker-->
+	<div class="blockdisplay" id="yourbread" style="text-align:center;">
+		<div>
+			<h1>Your Breadibility</h1>
+			<h2 id="points">You Have a total of Points!</h2>
+			<p>Click the Redeem points tab above to earn your prizes!</p>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<!-- Getting Started-->
+	<div class="triplesectionmobile" id="started" style="text-align:center;">
+		<div style="width:90%;margin:auto;">
+			<h1>Getting Started</h1>
+			<p>This is your Breadibility Page.
+			<br><br>Here you can access your account information, review recent purchases, and redeem rewards
+			<br><br>Begin by exploring our collection of prizes under the redeem points tab
+			</p>
+		</div>
+	</div>
+	
+	
+	
+	
+	<!-- Account Card Image and Information-->
+	<div id="accountcard" class="triplesectionmobile" style="text-align:center;">
+		
+		<img src='images/mybreadibilitycard.png' width=90%>
+		<p>MyBreadibility Card Number:00<span id="random"></span></p>
+	</div>
+	
+	<div id="accountinfo" class='triplesectionmobile' style="text-align:center;">
+		<div class="aside" id="account">
+			<div>
+				<h1>Account Information</h1>
+				<p>
+					<ul>
+						<li >Name:<span id="accountname">Your name here</span></li>
+
+						<li>Email:<span id="accountemail">Your email here</span></li>
+					
+						<li>Date of last purchase:<span id="purchasedate">Your date here</span></li>
+					
+						<li>Member Since 1/18/2016</li>
+						<br>
+					</ul>
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+
+	<!--Footer-->
+	<div id="footer">
+		<!-- Social Media-->
+		<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
+		<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+		<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+		<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
+		<!--Legal Notice and Copyright Issue-->
+		<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+		<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
+	</div>
+
+</body>
+
+</html>
