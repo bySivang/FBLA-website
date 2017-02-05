@@ -82,14 +82,6 @@ body {
 	height: 150px;
 	display: block;
 	margin: 0 auto;
-
-<<<<<<< HEAD
-	margin: 0 auto;
-	max-width: 100%;
-	
-=======
-	margin: -60px auto;
->>>>>>> origin/master
 }
 
 #navigation {
@@ -845,18 +837,15 @@ select {
 #overview {
 	font-size: 1.4em;
 	font-family: 'Contrail One', cursive;
-	margin-bottom: 20px;
+	margin-bottom: 20px;s
 }
 
 .food_header {
 	max-width: 400px;
 	text-align: center;
 	color: #FFFFFF;
-<<<<<<< HEAD
 	font-family: 'Oswald', sans-serif;  
-=======
 	font-family: 'Oswald', sans-serif;
->>>>>>> origin/master
 	font-size: 1.5em;
 }
 
@@ -987,11 +976,8 @@ select {
 	text-align: center;
 	background-color: #15B7ED;
 	color: #FFFFFF;
-<<<<<<< HEAD
 	font-family: 'Contrail One', cursive;
-=======
 	font-family: â€˜Contrail One', cursive;
->>>>>>> origin/master
 	padding: 20px;
 }
 
@@ -1009,11 +995,8 @@ select {
 	text-align: center;
 	background-color: #15B7ED;
 	color: #FFFFFF;
-<<<<<<< HEAD
 	font-family: 'Contrail One', cursive;
-=======
 	font-family: â€˜Contrail One', cursive;
->>>>>>> origin/master
 	padding:0px 20px 20px;
 }
 
@@ -1142,11 +1125,7 @@ th {
 .adp-text {
 	background-color: #15B7ED;
 	color: #FFFFFF;
-<<<<<<< HEAD
 	font-family: 'Contrail One', cursive;
-=======
-	font-family: â€˜Contrail One', cursive;
->>>>>>> origin/master
 	font-size: 1.5em;
 }
 
@@ -1740,7 +1719,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 .heador{
 	width: 33%;
 	margin:auto;
-	font-family: â€˜Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	margin-bottom: 10px;
 }
 
@@ -1776,7 +1755,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 
 .blockdisplay {
 	display:block;
-	font-family: â€˜Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	margin-bottom: 30px;
 	text-align:center;
 	color: #FFFFFF;
