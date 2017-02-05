@@ -183,6 +183,7 @@ nav a {
 	float: left;
 	font-family: 'Contrail One', cursive;
 	margin-bottom: 20px;
+	color: white;
 }
 .triplesection1mobile {
 	width: 33%;
@@ -615,14 +616,14 @@ select {
 
 #privacypolicy h1 {
 	margin-top: 20px;
-	font-family: â€˜Bangersâ€™, cursive;
+	font-family: "Contrail One", cursive;
 	text-align: left;
 	font-size: 2em;
 	color: #FFFFFF;
 }
 
 #privacypolicy h2 {
-	font-family: â€˜Bangersâ€™, cursive;
+	font-family: "Contrail One", cursive;
 	text-align: left;
 	font-size: 1.5em;
 	color: #FFFFFF;
@@ -633,6 +634,7 @@ select {
 	font-family: 'Contrail One', cursive;
 	font-size: 1.2em;
 	margin-bottom: 10px;
+	word-wrap: break-word;
 }
 
 #legalsidebar {
@@ -1465,7 +1467,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 }
 
 #nutritionbody article h2 {
-	font-family: â€˜Contrail One', cursive;
+	font-family: "Contrail One", cursive;
 	letter-spacing: 2px;
 	font-size: 2em;
 	color: #15B7ED;
@@ -1476,7 +1478,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	margin: 10px auto 0px;
 	padding: 0 50px 40px;
 	opacity: .8;
-	font-family: â€˜Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.3em;
 	color: #15B7ED;
 	border-bottom: 2px #15B7ED solid;
@@ -1582,6 +1584,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 .faq h1{
 	font-size:1em;
 	margin-bottom:10px;
+	color: white;
 }
 .faq li {
 	width: 75%;
