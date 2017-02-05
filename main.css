@@ -164,7 +164,20 @@ nav a {
 	-webkit-box-shadow: -5px 3px 31px 1px rgba(17,21,92,0.39);
 	-moz-box-shadow: -5px 3px 31px 1px rgba(17,21,92,0.39);
 	box-shadow: -5px 3px 31px 1px rgba(17,21,92,0.39);
+}.triplesection h3 {
+	font-size: 20px;
+	color: #FF0000;
+	text-align: center;
+	color: #D3D3D3;
 }
+.triplesection p {
+	width: 85%;
+	font-size: .4em;
+	text-align: center;
+	margin: auto;
+	color: #FF0000;
+}
+
 .triplesectionmobile {
 	width: 33%;
 	float: left;
@@ -308,13 +321,14 @@ nav a {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #15B7ED;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-family: 'Contrail One', cursive;
 }
 
 /* Number text (1/3 etc) */
