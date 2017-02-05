@@ -127,6 +127,7 @@ nav a {
 	padding: 50px;
 	margin-bottom: 10px;
 	text-align: center;
+	color: #15B7ED;
 }
 
 .triplesectionwrapper {
@@ -221,6 +222,7 @@ nav a {
 
 
 #onesectionwrapper {
+	position: relative;
 	display: block;
 	margin: auto;
 	margin-bottom: 5px;
@@ -388,10 +390,13 @@ nav a {
 }
 
 .triplesection p {
+	position: relative;
 	width: 85%;
 	font-size: 1.2em;
 	text-align: center;
 	margin: auto;
+	z-index: 1000;
+	height: 100%;
 }
 .triplesection1 h1 {
 	font-size: 2.5em;
