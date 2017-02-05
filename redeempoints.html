@@ -3,10 +3,17 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>My Breadibility | Breadible</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Boundless,FEC,Sayreville,">
+	<meta name="description" content="Family Entertainment Center in Sayreville, NJ">
+	<meta name="author" content=“Sivang Modi and Kunal Kadakia“>
+	<title>Boundless Entertainment</title>
 	<link rel="stylesheet" href="main.css">
 	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type='text/css'><!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'><!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'><!--Font-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="main.js"></script>
 	<!-- Modernizr -->
@@ -21,17 +28,18 @@
 	<!--Header that contains the logo-->
 	<header>
 		<!--Small decorative div at the top that displays the phone number-->
-		<div id="phonenumberdiv">
-			<p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
-
-				<b id=phonenumber2>555-555-5555</b></p>
-
-			<!--Logo-->
-			<a href="index.html"><img src="images/lighterlogo.svg" alt="Breadible Logo" title="Breadible:Bakery and Restaurant" id="logo"></a>
+		<div id="phonenumberdiv"><p>Call us at <b><a id=phonenumber href="tel:7329866866">555-555-5555</a></b>
+			
+		<b id=phonenumber2>732-281-9372</b></p>
+		
+		<!--Logo-->
+			<a href="index.html"><img src="images/boundlesslogo.png" alt=“Boundless Entertainment Logo" title=Boundless Entertainment:Family Entertainment Center“ id="logo"></a>
 		</div>
 	</header>
 	
-	
+	<div id="phonenumberdivbottom">
+</div>
+
 	
 	<!--Purchase Confirmation-->
 	<div id="redeempopup">
@@ -51,34 +59,38 @@
 	<!--Navigation-->
 	<nav id="navigation">
 		
-		<!--Mobile Nav-->
+		<!--Mobile navigation (Hidden in desktop mode)-->
 		<img src="images/menuicon.png" id="icon" onclick="drop()" height="7%" width="7%"></img>
-		<ul id="menudropdown">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Menu</a></li>
-			<li><a href="nutrition.html">Nutrition</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-			<li class="active"><a href="mybreadibility.html">My Breadibility</a></li>
+		<ul id="menudropdown"><!--Mobile Icon-->
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="hours.html">HOURS & LOCATION</a></li>
+			<li><a href="parties.html">PARTIES</a></li>
+			<li><a href="funandgames.html">FUN & GAMES</a></li>
+			<li><a href="snackbar.html">SNACKBAR</a></li>
+			<li><a href="prices.html">PRICES</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+			<li class="active"><a href="myboundless.html">MY ACCOUNT</a></li>
 		</ul>
-
-		<!--Desktop Nav-->
+		
+		<!--Desktop navigation (Hidden in mobile view)-->
 		<ul id="navi">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Menu</a></li>
-			<li><a href="nutrition.html">Nutrition</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-			<li class="active"><a href="mybreadibility.html">My Breadibility</a></li>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="hours.html">HOURS & LOCATION</a></li>
+			<li><a href="parties.html">PARTIES</a></li>
+			<li><a href="funandgames.html">FUN & GAMES</a></li>
+			<li><a href="snackbar.html">SNACKBAR</a></li>
+			<li><a href="prices.html">PRICES</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+			<li class="active"><a href="myboundless.html">MY ACCOUNT</a></li>
 		</ul>
 	</nav>
+	<!--End Navigation-->
 	
 	
 	
 	<!--Secondary Nav-->
     <section id="secondnav">
-		<div class="responsivediv"><h1><a href="mybreadibilityuser.html">Overview</a></h1></div>
-		<div class="responsivediv" style="border-left:solid 2px #BE5D16; border-right:solid 2px #BE5D16"><h1><a href="recipes.html">Recipes</a></h1></div>
+		<div class="responsivediv"><h1><a href="myboundlessuser.html">Overview</a></h1></div>
 		<div class="responsivediv"><h1 class="active"><a href="#">Redeem Points</a></h1></div>
 	</section>
 	
@@ -90,7 +102,7 @@
 	</div>
 	<div class="blockdisplay" id="yourbread">
 		<div>
-			<h1>Your Breadibility</h1>
+			<h1>Your Boundless</h1>
 			<h2 id="points">You Have a total of Points!</h2>
 			<p>Click Redeem Now to earn your prizes!</p>
 		</div>
@@ -108,7 +120,7 @@
 		    </tr>
 		    <tr>
 				<td>Novelty Sticker</td>
-	    		<td>Get a novelty sticker in the shape of a French baguette</td>
+	    		<td>Get a novelty sticker in the shape of a Boundless Ride</td>
 	    		<td>300</td>
 	    		<td>While Supplies Last</td>
 	    		<td id="redeemit" onclick="redeem('Novelty Sticker',300)">Redeem Now</td>
@@ -122,7 +134,7 @@
 	    	</tr>
 			<tr>
 				<td>Buy One Get One Free</td>
-	    		<td>Pick any Pastry and Get another Free!</td>
+	    		<td>Pick any Snack and Get another Free!</td>
 	    		<td>1000</td>
 	    		<td>07/29/2016</td>
 	    		<td id="redeemit" onclick="redeem('Buy One Get One Free Coupon',1000)">Redeem Now</td>
@@ -135,22 +147,22 @@
 	    		<td id="redeemit" onclick="redeem('50% off coupon',1500)">Redeem Now</td>
 	    	</tr>
 	    	<tr>
-				<td>Collector's Fork</td>
-	    		<td>Get a limited edition Bredible fork with your name engraved on it</td>
+				<td>Collector's Bracelet</td>
+	    		<td>Get a limited edition Boundless Bracelet with your name engraved on it</td>
 	    		<td>1700</td>
 	    		<td>While Supplies Last</td>
 	    		<td id="redeemit" onclick="redeem('Collector\'s Fork',1700)">Redeem Now</td>
 	    	</tr>
 	    	<tr>
-				<td>Breadible Bib</td>
-	    		<td>Get a limited edition Breadible bib with "Got Bread?" written across it</td>
+				<td>Boundless Bib</td>
+	    		<td>Get a limited edition Boundless bib with "NO BOUNDARIES?" written across it</td>
 	    		<td>2000</td>
 	    		<td>While Supplies Last</td>
 	    		<td id="redeemit" onclick="redeem('Breadible Bread',2000)">Redeem Now</td>
 	    	</tr>
 	    	<tr>
-				<td>Bread of Fame</td>
-	    		<td>Get a portrait of yourself etched out in bread and hung on our wall</td>
+				<td>Wall of Fame</td>
+	    		<td>Get a portrait of yourself hung on our wall of fame</td>
 	    		<td>10000</td>
 	    		<td>12/31/2016</td>
 	    		<td id="redeemit" onclick="redeem('Bread of Fame',10000)">Redeem Now</td>
@@ -161,14 +173,14 @@
 	<!--Footer-->
 	<div id="footer">
 		<!-- Social Media-->
-		<a href="https://www.facebook.com/breadible/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
-		<a href="https://www.instagram.com/breadible/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
-		<a href="https://twitter.com/BreadibleBakery" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+		<a href="https://www.facebook.com/boundlessentertainment/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
+		<a href="https://www.instagram.com/boundless_entertainment/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
+		<a href="https://twitter.com/boundlessentertainment" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
 		<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
 		<!--Legal Notice and Copyright Issue-->
-		<p id="copyright">Copyright &#169 2016 Breadible. All rights reserved. </p>
+		<p id="copyright">Copyright &#169 2017 Boundless. All rights reserved. </p>
 		<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
-	</div>
+	</div><!--End Footer-->
 
 </body>
 
