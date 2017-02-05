@@ -143,6 +143,7 @@ nav a {
 	text-align: center;
 }
 .triplesection {
+	position: relative;
 	width: 33%;
 	float: left;
 	font-family: 'Contrail One', cursive;
