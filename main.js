@@ -264,23 +264,34 @@ function showSlides(n) {
         
         
 //Creates css transitions for FAQ (MyBreadbility) paragraphs        
-var prevfaq = "";
+var prevfaq ;
     function faqclick(faq) {
         var info = document.getElementById(faq);
-        
+		
+       
         if (info.style.maxHeight != "300px") { //Checks if paragraph tag is open
-            if (prevfaq != "") { //Checks if another faq tab is open, closes if it is
-                var prev = document.getElementById(prevfaq);
+		   
+          /*  if (prevfaq !=  ) { //Checks if another faq tab is open, closes if it is
+               alert("here");
+			   var prev = document.getElementById(prevfaq);
+				alert(prev);
                 prev.style.WebkitTransform = "perspective(400) rotate3d(1,0,0,-90deg)";
-                prev.style.maxHeight = "0px";}
+                prev.style.maxHeight = "0px";
+				} */
                 
             info.style.WebkitTransform = "perspective(400) rotate3d(0,0,0,0)";
+			
             info.style.maxHeight = "300px";
-            prevfaq = faq;}
+			
+            prevfaq = faq;
+			
+			}
         else { //If paragraph tag is closed (No faq paragraphs are visible)
+		
             info.style.WebkitTransform = "perspective(400) rotate3d(1,0,0,-90deg)";
             info.style.maxHeight = "0px";
-            prevfaq = "";}
+            prevfaq = "";
+			}
     }
         
         
