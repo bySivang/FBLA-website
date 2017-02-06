@@ -19,23 +19,24 @@
 	<script type="text/javascript" src="main.js"></script><!--javascript-->
 	
 	<!--link jquery to use for reservation datepicker-->
-	<!--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-	<!--<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
- 
-	
-	
-	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	<script>
 		//Creates an id to give to html objects to allow date boxes to appear after clicking
 		$(function() {
 			$("#datepicker").datepicker();
 		});
-		
+	</script>
 	
+//Creates an id to give to html objects to allow date boxes to appear after clicking
+		$(function() {
+			$("#datepicker").datepicker();
+		});
+		
+		
+		
+		
 		
 	</script>
 </head>
@@ -96,7 +97,7 @@
 		<div id=homeinfo>
     		<form id="frm">
      <!--Date-->
-     <input id="datepicker" type=button name=Date value="Date">
+     <input id="datepicker" type="button" name="Date" value="Date" class="hasDatepicker">
      <!--End Date-->
 
 					<select id=hours name=Hours>
@@ -274,13 +275,14 @@
 		<!-- Social Media-->
 		<a href="https://www.facebook.com/boundlessentertainment/" target="_blank"><img class="socialmedia" src="images/facebook.png"></a>
 		<a href="https://www.instagram.com/boundless_entertainment/" target="_blank"><img class="socialmedia" src="images/instagram.png"></a>
-		<a href="https://twitter.com/boundlessentertainment" target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
+		<a href="https://twitter.com/boundlesse_fec” target="_blank"><img class="socialmedia" src="images/twitter.png"></a>
 		<a href="https://plus.google.com/101828695819056806587/about" target="_blank"><img class="socialmedia" src="images/google+.png"></a>
 		<!--Legal Notice and Copyright Issue-->
 		<p id="copyright">Copyright &#169 2017 Boundless. All rights reserved. </p>
-		<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a></p>
-	</div><!--End Footer-->
+		<p id="lawyerstuff"> View <a href="terms_of_use.html">Terms of Use</a> and <a href="privacypolicy.html">Privacy Policy</a> and <a href="https://github.com/bySivang/FBLA-website">Code.</a></p>
 
+	</div><!--End Footer-->
+	
 
 
 </body>

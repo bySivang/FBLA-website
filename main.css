@@ -151,14 +151,6 @@ nav a {
 	color: white;
 }
 
-.triplesectionfg {
-	width: 33%;
-	float: left;
-	font-family: 'Contrail One', cursive;
-	margin-bottom: 10px;
-	color: white;
-}
-
 .triplesection1 {
 	width: 33%;
 	float: left;
@@ -397,8 +389,6 @@ nav a {
 	font-size: 1.2em;
 	text-align: center;
 	margin: auto;
-	z-index: 1000;
-	height: 100%;
 }
 .triplesection1 h1 {
 	font-size: 2.5em;
@@ -1706,7 +1696,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 #redeemtable {
 	border: 2px #15B7ED solid;
 	opacity: .8;
-	font-family: â€˜Contrail One', cursive;
+	font-family: "Contrail One", cursive;
 	font-size: 1.3em;
 	color: #15B7ED;
 	border-bottom: 2px #15B7ED solid;
