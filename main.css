@@ -149,6 +149,7 @@ nav a {
 	font-family: 'Contrail One', cursive;
 	margin-bottom: 10px;
 	color: white;
+	text-align: center;
 }
 
 .triplesection1 {
@@ -841,7 +842,9 @@ select {
 }
 
 .food_header {
-	max-width: 400px;
+	width:200%; 
+    margin-left:15%; 
+    margin-right:15%;
 	text-align: center;
 	color: #FFFFFF;
 	font-family: 'Oswald', sans-serif;  
@@ -1471,7 +1474,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 	width: 100%;
 	border: 2px #15B7ED solid;
 	opacity: .8;
-	font-family: â€˜Contrail One', cursive;
+	font-family: 'Contrail One', cursive;
 	font-size: 1.3em;
 	color: #15B7ED;
 	border-bottom: 2px #15B7ED solid;
@@ -1598,7 +1601,7 @@ box-shadow: 15px 3px 150px 0px rgba(242,233,242,1);
 }
 
 #signup {
-	font-family: "â€œContrail One", ", cursive";
+	font-family: "Contrail One", ", cursive";
 	font-size: 1.2em;
 	display: block;
 	text-align: center;
