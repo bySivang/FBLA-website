@@ -150,6 +150,15 @@ nav a {
 	margin-bottom: 10px;
 	color: white;
 }
+
+.triplesectionfg {
+	width: 33%;
+	float: left;
+	font-family: 'Contrail One', cursive;
+	margin-bottom: 10px;
+	color: white;
+}
+
 .triplesection1 {
 	width: 33%;
 	float: left;
