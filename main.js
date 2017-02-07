@@ -79,16 +79,20 @@ function showSlides(n) {
             }
         
             function popupmid(){
-                
-                
+                                
                 var frm = document.getElementById("frm");
                 var hour = frm.Hours.value; //Get submitted values from form
+			
                 var date = frm.datepicker.value; //Get submitted values from form
+				
                 var people = frm.numberofpeople.value; //Get submitted values from form
+				
                 var firstname = document.getElementById("firstnameres").value;
+			
                 var lastname = document.getElementById("lastnameres").value;
+			
                 var phone = document.getElementById("phoneres").value;
-                
+             
                 if (firstname != "" && lastname != ""){
                     if (phone.length == 10){
                         document.getElementById('reservationpopup').style.display = "none";
